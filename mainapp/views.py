@@ -20,7 +20,7 @@ def index(request):
 
 def about(request):
     context = {
-        "title": "About Us",
+        "title": "About Us  ",
         "crumb_to": "Home",
         "link": "index"
     }

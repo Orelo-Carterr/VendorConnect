@@ -10,7 +10,7 @@
     {% endblock styles %}
 
 {% block content %}
-    {% include 'mainapp/includes/_mainloader.html' %}
+    {% include 'mainapp/includes/_loader.html' %}
     <div class="page-wraper">
         
         <!-- Header -->
@@ -21,12 +21,12 @@
 		<div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr1.jpg'); background-size:cover; background-position:center;">
 			<div class="container">
 				<div class="dz-bnr-inr-entry">
-					<h1>Services</h1>
+					<h1>{{title}}</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Services</li>
+							<li class="breadcrumb-item"><a href="{% url link  %}">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">{{title}}</li>
 						</ul>
 					</nav>
 					<!-- Breadcrumb Row End -->
