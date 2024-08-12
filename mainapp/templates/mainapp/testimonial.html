@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+    {%block title %}
+        VendorConnect | Streamlined Campus Dining Solutions
+    {% endblock %}
+    {% block styles %}
+        {% include 'mainapp/includes/_links.html' %}
+    {% endblock styles %}
+
+{% block content %}
+    {% include 'mainapp/includes/_mainloader.html' %}
+    <div class="page-wraper">
+        
+        <!-- Header -->
+		    {% include 'mainapp/includes/_header.html' %}
+        <!-- Header -->
+	
+	<div class="page-content bg-white">
+		<!-- Banner  -->
+		<div class="dz-bnr-inr style-1 text-center bg-parallax bg-parallax" style="background-image:url('{% static "images/banner/bnr5.jpg" %}'); background-size:cover; background-position:center;">
+			<div class="container">
+				<div class="dz-bnr-inr-entry">
+					<h1>Testimonial</h1>
+					<!-- Breadcrumb Row -->
+					<nav aria-label="breadcrumb" class="breadcrumb-row">
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item"><a href="{% url "index" %}">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Customer's Comment</li>
+						</ul>
+					</nav>
+					<!-- Breadcrumb Row End -->
+				</div>
+			</div>
+		</div>
+		<!-- Banner End -->
+		
+		<!-- Testimonials 2-->
+		<section class="content-inner-1 overflow-hidden">
+			<div class="container">
+				<div class="row loadmore-content">
+					<div class="col-lg-12 m-lg-b60 m-b30">
+						<div class="testimonial-2">
+							<div class="dz-media">
+								<img src="{% static "images/testimonial/large/pic1.jpg" %}" alt="/">
+							</div>
+							<div class="testimonial-detail">
+								<div class="testimonial-text">
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+								</div>
+								<div class="testimonial-info">
+									<h5 class="testimonial-name">John Doe</h5>
+									<span class="testimonial-position">Food Expert</span>
+								</div>
+								<i class="flaticon-right-quote quote"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 m-lg-b60 m-b30">
+						<div class="testimonial-2 right">
+							<div class="testimonial-detail">
+								<div class="testimonial-text">
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+								</div>
+								<div class="testimonial-info">
+									<h5 class="testimonial-name">Carry Mint</h5>
+									<span class="testimonial-position">Food Expert</span>
+								</div>
+								<i class="flaticon-right-quote quote"></i>
+							</div>
+							<div class="dz-media">
+								<img src="{% static "images/testimonial/large/pic2.jpg" %}" alt="/">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 m-lg-b60 m-b30">
+						<div class="testimonial-2">
+							<div class="dz-media">
+								<img src="{% static "images/testimonial/large/pic3.jpg" %}" alt="/">
+							</div>
+							<div class="testimonial-detail">
+								<div class="testimonial-text">
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+								</div>
+								<div class="testimonial-info">
+									<h5 class="testimonial-name">Sarah Albert</h5>
+									<span class="testimonial-position">Food Expert</span>
+								</div>
+								<i class="flaticon-right-quote quote"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 m-lg-b60 m-b30">
+						<div class="testimonial-2 right">
+							<div class="testimonial-detail">
+								<div class="testimonial-text">
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+								</div>
+								<div class="testimonial-info">
+									<h5 class="testimonial-name">Stevin Mark</h5>
+									<span class="testimonial-position">Food Expert</span>
+								</div>
+								<i class="flaticon-right-quote quote"></i>
+							</div>
+							<div class="dz-media">
+								<img src="{% static "images/testimonial/large/pic1.jpg" %}" alt="/">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Testimonial 2-->
+	</div>
+	<!--Footer-->
+	{% include 'mainapp/includes/_footer.html' %}
+
+
+{% endblock content %}
+
+{% block scripts %}
+	{% include 'mainapp/includes/_scripts.html' %}
+{% endblock scripts %}
+</html>
