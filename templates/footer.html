@@ -39,7 +39,7 @@
                             <ul>
                                 <li><a href="{% url "index" %}">Home</a></li>
                                 <li><a href="{% url "about" %}">About Us</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li><a href="{% url "services" %}">Services</a></li>
                                 <li><a href="{% url "team" %}">Team</a></li>
                             </ul>
                         </div>
@@ -49,7 +49,7 @@
                         <div class="footer-menu wow fadeInUp" data-wow-delay="0.4s">
                             <ul>
                                 <li><a href="{% url "faq" %}">FAQ</a></li>
-                                <li><a href="shop-style-1.html">Shop</a></li>
+                                <li><a href="{% url "services" %}">Services</a></li>
                                 <li><a href="shop-style-2.html">Category Filter</a></li>
                                 <li><a href="{% url "testimonial" %}">Testimonials</a></li>
                                 <li><a href="{% url "contact" %}">Contact Us</a></li>

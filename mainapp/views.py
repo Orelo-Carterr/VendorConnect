@@ -57,3 +57,11 @@ def contact(request):
         "link": "index"
     }
     return render(request, 'mainapp/contact-us.html', context)
+
+def services(request):
+    context = {
+        "title": "Our Services",
+        "crumb_to": "Home",
+        "link": "index"
+    }
+    return render(request, 'mainapp/services.html', context)
