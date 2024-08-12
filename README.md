@@ -18,8 +18,11 @@
 ### Prerequisites
 
 - Python 3.12+
-- Django 4.1.1
 - Virtualenv
+- asgiref==3.8.1
+- Django==5.1
+- sqlparse==0.5.1
+- tzdata==2024.1
 
 ### Setup Instructions
 
