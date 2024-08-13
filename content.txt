@@ -1,150 +1,151 @@
-Adonai Kitchen 
+Here’s a breakdown of the menu items categorized by each vendor:
 
+### **Adonai Kitchen**
 
-1. jollof rice 150
-2. Fried rice 150
-3. Jollof spaghetti 200
-4. Beans and corn 200
-5. White spaghetti 150
-6. White rice 150
-7. Beans 200
-8. Yam and egg 3 for 500
-9. Potato and egg 3 for 500
-10. Amala 200
-11. Semolina or semovita 200
-12. Fufu 100
-13. Egg sauce 100
-14. Fried plantain 50
-15. Porridge yam 200
-16. Akara 100
-17. Doughnut 400
-18. Ice cream 1000, 1500
+**Main Dishes**
+1. Jollof Rice - ₦150
+2. Fried Rice - ₦150
+3. Jollof Spaghetti - ₦200
+4. Beans and Corn - ₦200
+5. White Spaghetti - ₦150
+6. White Rice - ₦150
+7. Beans - ₦200
+8. Yam and Egg (3 for ₦500)
+9. Potato and Egg (3 for ₦500)
+10. Amala - ₦200
+11. Semolina or Semovita - ₦200
+12. Fufu - ₦100
+13. Egg Sauce - ₦100
+14. Fried Plantain - ₦50
+15. Porridge Yam - ₦200
+16. Akara - ₦100
+17. Doughnut - ₦400
+18. Ice Cream - ₦1000, ₦1500
 
+**Protein**
+1. Meat - ₦100
+2. Turkey - ₦1000, ₦1500, ₦3500
+3. Chicken - ₦1000, ₦1500, ₦3500
+4. Fish - ₦800, ₦1000
 
-Protein
-1. Meat 100
-2. Turkey 1500, 3500, 1000
-3. Chicken 1500, 3500, 1000
-4. Fish 800, 1000
-
-Drinks
-
-Soup
+**Soup**
 1. Ewedu
-2. Egwusi 
+2. Egusi
 3. Efo
 
+**Drinks**
+(Not specified)
 
-´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+---
 
+### **Blossom Kitchen**
 
-Blossom Kitchen 
+**Main Dishes**
+1. Jollof Rice - ₦150
+2. Fried Rice - ₦150
+3. Jollof Spaghetti - ₦200
+4. Beans and Corn - ₦200
+5. White Spaghetti - ₦150
+6. White Rice - ₦150
+7. Beans - ₦200
+8. Yam and Egg (3 for ₦500)
+9. Potato and Egg (3 for ₦500)
+10. Amala - ₦200
+11. Semolina or Semovita - ₦200
+12. Fufu - ₦100
+13. Egg Sauce - ₦100
+14. Fried Plantain - ₦50
+15. Porridge Yam - ₦200
+16. Akara - ₦100
+17. Doughnut - ₦400
+18. Ice Cream - ₦1000, ₦1500
 
+**Protein**
+1. Meat - ₦100
+2. Turkey - ₦1000, ₦1500, ₦3500
+3. Chicken - ₦1000, ₦1500, ₦3500
+4. Fish - ₦800, ₦1000
 
-
-1. jollof rice 150
-2. Fried rice 150
-3. Jollof spaghetti 200
-4. Beans and corn 200
-5. White spaghetti 150
-6. White rice 150
-7. Beans 200
-8. Yam and egg 3 for 500
-9. Potato and egg 3 for 500
-10. Amala 200
-11. Semolina or semovita 200
-12. Fufu 100
-13. Egg sauce 100
-14. Fried plantain 50
-15. Porridge yam 200
-16. Akara 100
-17. Doughnut 400
-18. Ice cream 1000, 1500
-
-
-Protein
-1. Meat 100
-2. Turkey 1500, 3500, 1000
-3. Chicken 1500, 3500, 1000
-4. Fish 800, 1000
-
-Drinks
-
-Soup
+**Soup**
 1. Ewedu
-2. Egwusi 
+2. Egusi
 3. Efo
 
-´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+**Drinks**
+(Not specified)
 
-Hot and spicy Kitchen 
+---
 
+### **Hot and Spicy Kitchen**
 
+**Main Dishes**
+1. Bread (Small) - ₦600
+2. Bread (Big) - ₦1200
+3. Sausage - ₦300
+4. Noodles - ₦400
+5. Egg - ₦300
+6. Chicken - ₦2500
+7. Shawarma (Single) - ₦2000
+8. Shawarma (Double) - ₦2500
+9. Chicken and Chips - ₦4000
+10. Egg Roll - ₦400
+11. Fish Roll - ₦150
 
-Bread small 600
-Bread big 1200
-Sausage 300
-Noodles 400
-Egg 300
-Chicken 2500
-Sharwama single 2000
-Sharwama double 2500
-Chicken and chips 4000
-Egg roll 400
-Fish roll 150
+**Drinks**
+(Not specified)
 
-Drinks
+---
 
-´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+### **Deli Buds Kitchen**
 
+**Main Dishes**
+1. Bread - ₦500
+2. Egg - ₦300
+3. Sausage - ₦300
+4. Chicken and Chips - ₦2700 - ₦3000
+5. Shawarma (No Sausage) - ₦1800
+6. Shawarma (1 Sausage) - ₦2000
+7. Shawarma (2 Sausages) - ₦2300
+8. Small Chops - ₦1700
+9. Spaghetti Stir Fry - ₦3000
+10. Bollie and Turkey - ₦2700
+11. Catfish - ₦1500
 
-Deli Buds Kitchen 
+**Suya**
+1. Suya - ₦700
+2. Gizzards - ₦700
+3. Shaki Suya - ₦700
+4. Goat Meat Suya - ₦700
+5. Asun - ₦1000
 
+**Smoothies**
+1. Smoothie (Ordinary) - ₦1000
+2. Smoothie with Toppings - ₦1200
 
-Bread 500
-Egg 300
-Sausage 300
-Chicken and chip 2700-3000
-Shawarma 1800 No sausage 
-Shawarma 2000 1 sausage 
-Shawarma 2300 2 sausage 
-Smoothie ordinary 1000
-Smoothie with toppings 1200
-Suya 700
-Gizzards 700
-Shaki suya 700
-Goat meat suya 700
-Small chops 1700
-Spaghetti Stir fry 3000
-ASUN 1000
-Bollie and turkey 2700
-Catfish 1500
+---
 
-´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+### **SOTA Kitchen**
 
-SOTA Kitchen 
+**Main Dishes**
+1. Rice - ₦150
+2. Beans - ₦150
+3. Amala - ₦200
+4. Eba - ₦200
+5. Fufu - ₦200
+6. Moi Moi - ₦200, ₦300 (Half Egg), ₦500 (Full Egg)
+7. Semo - ₦200
+8. Spaghetti - ₦150
+9. Akara - ₦100
 
-Rice 150
-Beans 150
-Amala 200
-Eba 200
-Fufu 200
-Moi moi 200, 300 half egg, 500 full egg
-Semo 200
-Spaghetti 150
-Akara 100
+**Soup**
+1. Efo
+2. Egusi
+3. Okro
+4. Ewedu
 
-Soup
+**Drinks**
+(Not specified)
 
-Efo 
-Egusi
-Okro 
-Ewedu 
+---
 
-Drinks
-
-
-==========================================================================================================================================================
-Chrisland University, idi aba Km 5 Ajebo Rd, Owode, near FMC, Abeokuta 110104, Ogun State.
-08108945241
-Aikulolaoreoluwa222@gmail.com
+Each vendor offers a variety of dishes, proteins, soups, and drinks. This structured menu can be used to help customers select from the various options available at Chrisland University.

@@ -24560,10 +24560,17 @@ ul a.rsswidget:hover {
   position: relative;
   height: 100%;
 }
+
 .dz-img-box.style-7 .dz-media img {
   -webkit-transition: all 0.2s;
   -ms-transition: all 0.2s;
+  display: block;
   transition: all 0.2s;
+  height: 50%;
+  max-height: 50%;
+  width: 100%;
+  object-fit: contain ;
+  object-position: top ;
 }
 .dz-img-box.style-7 .dz-meta {
   position: absolute;

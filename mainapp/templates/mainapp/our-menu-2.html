@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+    {%block title %}
+        VendorConnect | Streamlined Campus Dining Solutions
+    {% endblock %}
+    {% block styles %}
+        {% include 'mainapp/includes/_links.html' %}
+    {% endblock styles %}
+
+{% block content %}
+    {% include 'mainapp/includes/_loader.html' %}
+    <div class="page-wraper">
+	
+	<div class="page-content bg-white">
+		<!-- Banner  -->
+		<div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr2.jpg'); background-size:cover; background-position:center;">
+			<div class="container">
+				<div class="dz-bnr-inr-entry">
+					<h1>Our Menu 2</h1>
+					<!-- Breadcrumb Row -->
+					<nav aria-label="breadcrumb" class="breadcrumb-row">
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Our Menu 2</li>
+						</ul>
+					</nav>
+					<!-- Breadcrumb Row End -->
+				</div>
+			</div>
+		</div>
+		<!-- Banner End -->
+		
+		<!-- Team Section -->
+		<section class="content-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="site-filters style-2 clearfix mb-lg-5 mb-md-4 ">
+							<ul class="filters" data-bs-toggle="buttons">
+								<li data-filter=".All" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-fast-food"></i></span>All</a></li>
+								<li data-filter=".drink" class="btn"><a href="javascript:void(0);"><span><i class="flaticon-cocktail"></i></span>COLD DRINK</a></li>
+								<li data-filter=".pizza" class="btn"><a href="javascript:void(0);"><span><i class="flaticon-pizza-slice"></i></span>PIZZA</a></li>
+								<li data-filter=".salad" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-salad"></i></span>SALAD</a></li>
+								<li data-filter=".sweet" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-cupcake"></i></span>SWEETS</a></li>
+								<li data-filter=".spicy" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-chili-pepper"></i></span>SPICY</a></li>
+								<li data-filter=".burger" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-hamburger-1"></i></span>BURGER</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix" id="lightgallery">
+					<ul id="masonry" class="row dlab-gallery-listing gallery">
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All pizza spicy">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic1.jpg" title="Sweet Cake" data-src="assets/images/gallery/grid5/pic1.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Sweet Cake</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All salad burger">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic2.jpg" title="Health Amd Wealth" data-src="assets/images/gallery/grid5/pic2.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic2.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Health And Wealth</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All drink sweet">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic3.jpg" title="Boil Rice" data-src="assets/images/gallery/grid5/pic3.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic3.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Boil Rice</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All pizza burger">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic4.jpg" title="Burger & Frence Fries" data-src="assets/images/gallery/grid5/pic4.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic4.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Burger & Frence Fries</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All drink spicy">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic5.jpg" title="Nonveg Biryani" data-src="assets/images/gallery/grid5/pic5.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic5.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Nonveg Biryani</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All drink sweet">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic6.jpg" title="Honey Bread" data-src="assets/images/gallery/grid5/pic6.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic6.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Honey Bread</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All salad burger">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic7.jpg" title="Sweet Potato" data-src="assets/images/gallery/grid5/pic7.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic7.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Sweet Potato</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All drink salad">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic8.jpg" title="Veg Sauce" data-src="assets/images/gallery/grid5/pic8.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic8.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Veg Sauce</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All drink burger">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic9.jpg" title="Chilla" data-src="assets/images/gallery/grid5/pic9.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic9.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Chilla</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All sweet spicy">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic10.jpg" title="Crapse food" data-src="assets/images/gallery/grid5/pic10.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic10.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Crapse food</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All pizza burger">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic11.jpg" title="Pizza" data-src="assets/images/gallery/grid5/pic11.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic11.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Pizza</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 All drink sweet spicy">
+							<div class="dz-img-box style-8">
+								<a href="assets/images/gallery/grid5/pic12.jpg" title="Donets" data-src="assets/images/gallery/grid5/pic12.jpg" class="dz-media lg-item">
+									<img src="assets/images/gallery/grid5/pic12.jpg"  alt="/" width="800" height="650">
+								</a>
+								<div class="dz-content">
+									<div class="dz-head">
+										<h6 class="title"><a href="product-detail.html">Donets</a></h6>
+										<span class="heart"></span>
+									</div>
+									<p class="category">Fast Food</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- Team Section -->
+		
+	</div>
+	<!--Footer-->
+	{% include 'mainapp/includes/_footer.html' %}
+        
+        
+	{% endblock content %}
+	
+	{% block scripts %}
+		{% include 'mainapp/includes/_scripts.html' %}
+	{% endblock scripts %}
+	
+	
+	</html> 
