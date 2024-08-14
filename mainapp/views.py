@@ -6,7 +6,7 @@ from django.urls import reverse
 from django.views.defaults import page_not_found
 
 from random import randrange
-from .menu import _menu
+from .menu import _menu,_menu2,kitchen_menu
 # Create your views here.
 
 def error_404_view(request, exception):
@@ -77,13 +77,28 @@ def services(request):
     return render(request, 'mainapp/services.html', context)
 
 def book(request):
+    all_menu = _menu2
+    
     context = {
-        "title": "Our Services",
+        "title": "Our Menu",
         "crumb_to": "Home",
         "link": "index",
-        "banner" : "images/banner/bnr1.jpg"
+        "banner" : "images/banner/bnr3.jpg",
+        "menu" : all_menu
     }
-    return render(request, 'mainapp/shop-cart.html', context)
+    return render(request, 'mainapp/our-menu.html', context)
+
+def vendor(request,slug):
+    vendors = kitchen_menu
+    for vendor in vendors:
+        print(vendor["title"])
+    context = {
+        "title": "Our Menu",
+        "crumb_to": "Home",
+        "link": "index",
+        "banner" : "images/banner/bnr3.jpg",
+    }
+    return render(request, 'mainapp/vendor.html', context)
 
 # def book_details(request):
 #     context = {

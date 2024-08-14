@@ -12,6 +12,7 @@ urlpatterns = [
     path('services/', views.services, name='services'),
     path('book/', views.book, name='book'),
     path('book-details/<slug:slug>', views.menu, name='book-details'),
+    path('vendor/<slug:slug>', views.vendor, name='vendor'),
     
    
 ]

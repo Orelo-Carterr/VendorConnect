@@ -49,15 +49,17 @@
                                     </ul>
                                 </li>
                         </li>
-                        <li class="sub-menu-down"><a href="{% url "services" %}">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="shop-style-1.html">Shop Style 1</a></li>
-                                <li><a href="shop-style-2.html">Shop Style 2</a></li>
-                                <li><a href="shop-cart.html">Shop Cart</a></li>
-                                <li><a href="shop-wishlist.html">Shop Wishlist</a></li>
-                                <li><a href="shop-checkout.html">Shop Checkout</a></li>
-                                <li><a href="product-detail.html">Product Detail</a></li>
-                            </ul>
+                        <li><a href="{% url "services" %}">Services</a>
+                            {% comment %}
+                                <ul class="sub-menu">
+                                    <li><a href="shop-style-1.html">Shop Style 1</a></li>
+                                    <li><a href="shop-style-2.html">Shop Style 2</a></li>
+                                    <li><a href="shop-cart.html">Shop Cart</a></li>
+                                    <li><a href="shop-wishlist.html">Shop Wishlist</a></li>
+                                    <li><a href="shop-checkout.html">Shop Checkout</a></li>
+                                    <li><a href="product-detail.html">Product Detail</a></li>
+                                </ul>
+                            {% endcomment %}
                         </li>
                         <li class="has-mega-menu">
                             <a href="javascript:void(0);">Vendors</a>
