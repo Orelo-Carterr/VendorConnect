@@ -89,14 +89,13 @@ def book(request):
     return render(request, 'mainapp/our-menu.html', context)
 
 def vendor(request,slug):
-    vendors = kitchen_menu
-    for vendor in vendors:
-        print(vendor["title"])
+    kitchen = kitchen_menu[slug]
     context = {
-        "title": "Our Menu",
+        "title": slug.title(),
         "crumb_to": "Home",
         "link": "index",
         "banner" : "images/banner/bnr3.jpg",
+        "kitchen" : kitchen
     }
     return render(request, 'mainapp/vendor.html', context)
 
