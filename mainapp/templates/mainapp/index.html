@@ -151,61 +151,24 @@
             <section class="content-inner bg-white overflow-hidden">
                 <div class="container">
                     <div class="section-head text-center">
-                        <h2 class="title wow flipInX" data-wow-delay="0.2s">Our Featured Food</h2>
+                        <h2 class="title wow flipInX" data-wow-delay="0.2s">Quick Booking</h2>
                     </div>
                     <div class="row">
+                        {% for item in menus  %}
                         <div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="dz-img-box style-2 box-hover">
                                 <div class="dz-media">
-                                    <img src="{% static "images/gallery/small/pic1.jpg" %}" alt="/">
+                                    <img src="{% static item.image %}" alt="/">
                                 </div>
                                 <div class="dz-content">
-                                    <h4 class="dz-title"><a href="product-detail.html">Pizza</a></h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                                    <h5 class="dz-price text-primary">&#x20a6;55.00</h5>
-                                    <a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
+                                    <h4 class="dz-title"><a href="product-detail.html">{{ item.title }}</a></h4>
+                                    <p>Juicy and well-seasoned chicken.</p>
+                                    <h5 class="dz-price text-primary">&#x20a6;1500+</h5>
+                                    <a href="{% url 'book-details' item.slug  %}" class="btn btn-primary btn-hover-2"> Book now</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="dz-img-box style-2 box-hover">
-                                <div class="dz-media">
-                                    <img src="{% static "images/gallery/small/pic2.jpg" %}" alt="/">
-                                </div>
-                                <div class="dz-content">
-                                    <h4 class="dz-title"><a href="product-detail.html">Rice</a></h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                                    <h5 class="dz-price text-primary">&#x20a6;50.00</h5>
-                                    <a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="dz-img-box style-2 box-hover">
-                                <div class="dz-media">
-                                    <img src="{% static "images/gallery/small/pic3.jpg" %}" alt="/">
-                                </div>
-                                <div class="dz-content">
-                                    <h4 class="dz-title"><a href="product-detail.html">Green Salad</a></h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                                    <h5 class="dz-price text-primary">&#x20a6;45.00</h5>
-                                    <a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="dz-img-box style-2 box-hover">
-                                <div class="dz-media">
-                                    <img src="{% static "images/gallery/small/pic4.jpg" %}" alt="/">
-                                </div>
-                                <div class="dz-content">
-                                    <h4 class="dz-title"><a href="product-detail.html">Pasta</a></h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                                    <h5 class="dz-price text-primary">&#x20a6;35.00</h5>
-                                    <a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </section>
@@ -364,7 +327,7 @@
                                     </div>
                                     <div class="dz-content">
                                         <h5 class="title"><a href="product-detail.html">Pepsi</a></h5>
-                                        <p>Pepsi is available for order, cheap and affordable</p>
+                                        <p>Pepsi is available for order</p>
                                         <span class="price">&#x20a6;400</span>
                                     </div>
                                 </div>
@@ -408,7 +371,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="container contact-area bg-parallax" style="background-image:url('images/background/pic13.png'); background-attachment: fixed;">
+                <div class="container contact-area bg-parallax" id="contact" style="background-image:url('images/background/pic13.png'); background-attachment: fixed;">
                     <div class="row align-items-center">
                         <div class="col-lg-8 col-md-12 m-b30">
                             <div class="contact-head">
@@ -417,6 +380,9 @@
                             </div>
                             <form action="https://submit-form.com/fFSSAqd1o">
                                 <input type="hidden" name="_append" value="false" />
+                                <input type="hidden" name="_email.subject" value="You have a new message!" />
+					<input type="hidden" name="_email.template.title" value="My Custom Title" />
+                    <input type="hidden" name="_redirect" value="https://vendor-connect.vercel.app/#contact" />
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 m-b30 m-xl-b50 wow fadeInUp" data-wow-delay="0.2s">
                                         <div class="input-group input-line">

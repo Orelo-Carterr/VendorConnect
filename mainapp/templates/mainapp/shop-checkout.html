@@ -1,0 +1,252 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+    {%block title %}
+        VendorConnect | Streamlined Campus Dining Solutions
+    {% endblock %}
+    {% block styles %}
+        {% include 'mainapp/includes/_links.html' %}
+    {% endblock styles %}
+
+{% block content %}
+    {% include 'mainapp/includes/_loader.html' %}
+    <div class="page-wraper">
+        
+        <!-- Header -->
+		{% include 'mainapp/includes/_header.html' %}
+        <!-- Header -->
+	<div class="page-content bg-white">
+		<!-- Banner  -->
+		{% include "mainapp/includes/_crumb.html" %}
+		<!-- Banner End -->
+		
+		<!-- Cart Section -->
+		<section class="content-inner">
+			<div class="container">
+				{% comment %} <form class="shop-form">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="widget">
+								<h4 class="widget-title">Billing & Shipping Address</h4>
+								<div class="form-group m-b20">
+									<select class="form-select default-select">
+										<option value="1">Åland Islands</option>
+										<option value="2">Afghanistan</option>
+										<option value="3">Albania</option>
+										<option value="4">Algeria</option>
+										<option value="5">Andorra</option>
+										<option value="6">Angola</option>
+										<option value="7">Anguilla</option>
+										<option value="8">Antarctica</option>
+										<option value="9">Antigua and Barbuda</option>
+										<option value="10">Argentina</option>
+										<option value="11">Armenia</option>
+										<option value="12">Aruba</option>
+										<option value="13">Australia</option>
+									</select>	
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzFirstName" required type="text" class="form-control" placeholder="First Name">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzLastName" required type="text" class="form-control" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="form-group m-b20">
+									<input name="dzOther[CompanyType]" required type="text" class="form-control" placeholder="Company Name">
+								</div>
+								<div class="form-group m-b20">
+									<input name="dzOther[Address]" required type="text" class="form-control" placeholder="Address">
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[Other]" required type="text" class="form-control" placeholder="Apartment, suite, unit etc.">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[Town/City]" required type="text" class="form-control" placeholder="Town / City">
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[State/County]" required type="text" class="form-control" placeholder="State / County">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="Postcode/Zip" required type="text" class="form-control" placeholder="Postcode / Zip">
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzEmail" required type="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzPhoneNumber" required type="text" class="form-control dz-number" placeholder="Phone">
+									</div>
+								</div>
+								<button class="btn btn-gray btnhover mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#create-an-account">Create an account <i class="fa fa-angle-down m-l10"></i></button>
+								<div id="create-an-account" class="collapse">
+									<p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+									<div class="form-group">
+										<input name="Password" type="password" class="form-control" placeholder="Password">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<button class="btn btn-gray btnhover mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#different-address">Ship to a different address <i class="fa fa-angle-down m-l10"></i></button>
+							<div id="different-address" class="collapse">
+								<p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing & Shipping section.</p>
+								<div class="form-group m-b20">
+									<select class="form-select default-select">
+										<option value="Åland Islands">Åland Islands</option>
+										<option value="Afghanistan">Afghanistan</option>
+										<option value="Albania">Albania</option>
+										<option value="Algeria">Algeria</option>
+										<option value="Andorra">Andorra</option>
+										<option value="Angola">Angola</option>
+										<option value="Anguilla">Anguilla</option>
+										<option value="Antarctica">Antarctica</option>
+										<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+										<option value="Argentina">Argentina</option>
+										<option value="Armenia">Armenia</option>
+										<option value="Aruba">Aruba</option>
+										<option value="Australia">Australia</option>
+									</select>	
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzFirstName" type="text" class="form-control" placeholder="First Name">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzLastName" type="text" class="form-control" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="form-group m-b20">
+									<input name="dzFirstName" type="text" class="form-control" placeholder="Company Name">
+								</div>
+								<div class="form-group m-b20">
+									<input name="dzOther[Address]" type="text" class="form-control" placeholder="Address">
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[Other]" type="text" class="form-control" placeholder="Apartment, suite, unit etc.">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[Town/City]" type="text" class="form-control" placeholder="Town / City">
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[State/County]" type="text" class="form-control" placeholder="State / County">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzOther[Postcode/Zip]" type="text" class="form-control" placeholder="Postcode / Zip">
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzEmail" type="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group col-md-6 m-b20">
+										<input name="dzPhoneNumber" type="text" class="form-control dz-number" placeholder="Phone">
+									</div>
+								</div>
+								<p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" rows="5" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+							</div>
+						
+						</div>
+					</div>
+				</form> {% endcomment %}
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="widget">
+							<h4 class="widget-title">Your Order</h4>
+							<table class="table-bordered check-tbl">
+								<thead class="text-center">
+									<tr>
+										<th>IMAGE</th>
+										<th>Menu Item</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									
+									<tr>
+										<td class="product-item-img"><img src="{% static single_menu.image %}" alt="/"></td>
+										<td class="product-item-name">{{ single_menu.title }}</td>
+										<td class="product-price">{{single_menu.price}}</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<form class="shop-form widget" action="https://submit-form.com/fFSSAqd1o">
+							<h4 class="widget-title">Order Total</h4>
+							<table class="table-bordered check-tbl mb-4">
+								<tbody>
+									<tr>
+										<td>Order Subtotal</td>
+										<td class="product-price">
+											<input type="text" readonly style="outline: none; border: none;" value="{{ single_menu.title }}" name="{{ single_menu.title }}">
+										</td>
+									</tr>
+									<tr>
+										<td>Convenience fee</td>
+										<td class="product-price"><input type="text" readonly style="outline: none; border: none;" value="{{ single_menu.cf }}" name="{{ single_menu.cf }}"> </td>
+									</tr>
+									<tr>
+										<td>Total</td>
+										<td class="product-price-total"><input type="text" readonly style="outline: none; border: none;" value="{{ single_menu.total }}" name="{{ single_menu.total }}"></td>
+									</tr>
+								</tbody>
+							</table>
+							<h4 class="widget-title">Order details</h4>
+							<div class="form-group m-b20">
+								<input type="text" class="form-control" name="Name" placeholder="Name">
+							</div>
+							<div class="form-group m-b20">
+								<select class="form-select default-select" name="Nature of order">
+									<option value="Immediately">Immediately</option>
+									<option value="Schedule">Schedule(Details should be added)</option>
+								</select>	
+							</div>
+							<input type="hidden" name="_email.template.title" value="You have a new order!" />
+							<input type="hidden" name="_redirect" value="http://localhost:8000" />
+							<input type="hidden" name="_email.subject" value="Order from VendorConnect" />
+							<div class="form-group m-b20">
+								<input name="Schedule date and time" type="datetime-local" class="form-control" placeholder="Schedule Desciption(Optional)">
+							</div>
+							<div class="form-group m-b20">
+								<input name="Other details" required type="text" class="form-control" placeholder="Email Address">
+							</div>
+							<div class="form-group m-b20">
+								<input name="Other details" type="text" class="form-control" placeholder="Add other details, price vary if more requests are made to quick book">
+							</div>
+							<div class="form-group">
+								<button class="btn btn-gray btn-hover-2" type="submit" value="submit">Place Order Now </button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- cart Section -->
+		
+	</div>
+        <!--Footer-->
+        {% include 'mainapp/includes/_footer.html' %}
+        
+        
+{% endblock content %}
+
+{% block scripts %}
+    {% include 'mainapp/includes/_scripts.html' %}
+{% endblock scripts %}
+
+
+</html> 

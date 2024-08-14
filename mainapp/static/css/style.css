@@ -24566,10 +24566,10 @@ ul a.rsswidget:hover {
   -ms-transition: all 0.2s;
   display: block;
   transition: all 0.2s;
-  height: 50%;
+  height: 200px;
   max-height: 50%;
   width: 100%;
-  object-fit: contain ;
+  object-fit: cover ;
   object-position: top ;
 }
 .dz-img-box.style-7 .dz-meta {
