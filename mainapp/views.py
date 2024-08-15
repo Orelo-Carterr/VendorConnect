@@ -72,7 +72,7 @@ def contact(request):
 
 def services(request):
     context = {
-        "title": "Our Services",
+        "title": "Vendor Services",
         "crumb_to": "Home",
         "link": "index",
         "banner" : "images/banner/bnr1.jpg"
