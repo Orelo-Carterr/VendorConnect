@@ -62,29 +62,32 @@ vendors_menu = [
         "cf": 50,
         "total": 200,
         "description": "A refreshing, carbonated cola soft drink, perfect for quenching your thirst.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Blossom Kitchen",
+        "kitchen_slug": "blossom-kitchen",
         "category": "drink"
     },
     {
         "slug": "coke",
         "title": "Coca-Cola",
-        "image": "images/coke.jpg",
+        "image": "images/coke.png",
         "price": 150,
         "cf": 50,
         "total": 200,
         "description": "The classic cola soft drink with a rich, bold flavor. Always refreshing.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Adonai Kitchen",
+        "kitchen_slug": "adonai-kitchen",
         "category": "drink"
     },
     {
         "slug": "fanta",
         "title": "Fanta",
-        "image": "images/fanta.jpg",
+        "image": "images/fanta.webp",
         "price": 150,
         "cf": 50,
         "total": 200,
         "description": "A fruity, orange-flavored soft drink that's sweet and bubbly.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Hot and Spicy Kitchen",
+        "kitchen_slug": "hot-and-spicy-kitchen",
         "category": "drink"
     },
     {
@@ -95,29 +98,32 @@ vendors_menu = [
         "cf": 100,
         "total": 500,
         "description": "A soft, sweet, and delicious doughnut, perfect for a quick snack.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Deli Buds Kitchen",
+        "kitchen_slug": "deli-buds-kitchen",
         "category": "Snack"
     },
     {
         "slug": "egg-roll",
         "title": "Egg Roll",
-        "image": "images/egg_roll.jpg",
+        "image": "images/egg_rolls.jpg",
         "price": 400,
         "cf": 50,
         "total": 450,
         "description": "A deep-fried snack with a boiled egg encased in a crispy, golden dough.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "SOTA Kitchen",
+        "kitchen_slug": "sota-kitchen",
         "category": "Snack"
     },
     {
         "slug": "fish-roll",
         "title": "Fish Roll",
-        "image": "images/fish_roll.jpg",
+        "image": "images/fish_rolls.jpeg",
         "price": 150,
         "cf": 50,
         "total": 200,
         "description": "A tasty, deep-fried roll filled with seasoned fish, crispy on the outside and savory inside.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Blossom Kitchen",
+        "kitchen_slug": "blossom-kitchen",
         "category": "Snack"
     },
     {
@@ -128,7 +134,8 @@ vendors_menu = [
         "cf": 50,
         "total": 150,
         "description": "A popular Nigerian snack made from deep-fried bean cakes, crunchy and delicious.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Adonai Kitchen",
+        "kitchen_slug": "adonai-kitchen",
         "category": "Snack"
     },
     {
@@ -139,7 +146,8 @@ vendors_menu = [
         "cf": 100,
         "total": 2100,
         "description": "A tasty wrap filled with grilled meat, veggies, and a mix of delicious sauces.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Hot and Spicy Kitchen",
+        "kitchen_slug": "hot-and-spicy-kitchen",
         "category": "Snack"
     },
     {
@@ -150,7 +158,8 @@ vendors_menu = [
         "cf": 100,
         "total": 1800,
         "description": "A delightful assortment of mini snacks including puff-puff, samosas, and spring rolls.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Deli Buds Kitchen",
+        "kitchen_slug": "deli-buds-kitchen",
         "category": "Snack"
     },
     {
@@ -161,7 +170,8 @@ vendors_menu = [
         "cf": 50,
         "total": 250,
         "description": "A traditional Nigerian soup made from jute leaves, perfect with Amala or any swallow.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "SOTA Kitchen",
+        "kitchen_slug": "sota-kitchen",
         "category": "Soup"
     },
     {
@@ -172,7 +182,8 @@ vendors_menu = [
         "cf": 50,
         "total": 250,
         "description": "A hearty Nigerian soup made from ground melon seeds, rich in flavor and best enjoyed with any swallow.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Blossom Kitchen",
+        "kitchen_slug": "blossom-kitchen",
         "category": "Soup"
     },
     {
@@ -183,7 +194,8 @@ vendors_menu = [
         "cf": 50,
         "total": 250,
         "description": "A vibrant vegetable soup made from spinach and other leafy greens, spiced to perfection.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Adonai Kitchen",
+        "kitchen_slug": "adonai-kitchen",
         "category": "Soup"
     },
     {
@@ -194,7 +206,8 @@ vendors_menu = [
         "cf": 50,
         "total": 250,
         "description": "A popular Nigerian swallow made from yam flour, pairs perfectly with Ewedu or any other soup.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Hot and Spicy Kitchen",
+        "kitchen_slug": "hot-and-spicy-kitchen",
         "category": "Swallow"
     },
     {
@@ -205,18 +218,20 @@ vendors_menu = [
         "cf": 50,
         "total": 250,
         "description": "A smooth, light swallow made from semolina flour, great with any Nigerian soup.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Deli Buds Kitchen",
+        "kitchen_slug": "deli-buds-kitchen",
         "category": "Swallow"
     },
     {
         "slug": "fufu",
         "title": "Fufu",
-        "image": "images/fufu.jpg",
+        "image": "images/fufu.webp",
         "price": 100,
         "cf": 50,
         "total": 150,
         "description": "A starchy, fermented swallow made from cassava, with a slightly sour taste. Enjoyed with various soups.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "SOTA Kitchen",
+        "kitchen_slug": "sota-kitchen",
         "category": "Swallow"
     },
     {
@@ -227,10 +242,13 @@ vendors_menu = [
         "cf": 50,
         "total": 250,
         "description": "A popular Nigerian swallow made from garri, often paired with Egusi or any other soup.",
-        "kitchen": random.choice(vendors),
+        "kitchen": "Blossom Kitchen",
+        "kitchen_slug": "blossom-kitchen",
         "category": "Swallow"
     }
 ]
+
+
 categories = []
 for each in vendors_menu:
     cat = each["category"]
@@ -851,7 +869,7 @@ _menu2 = [
 {
     "slug": "fufu",
     "title": "Fufu",
-    "image": "images/fufu.jpg",
+    "image": "images/fufu.webp",
     "price": 100,
     "cf": 50,
     "total": 150,
