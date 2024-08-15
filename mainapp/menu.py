@@ -1,5 +1,6 @@
 from datetime import *
 import random
+vendors = ["Adonai Kitchen", "Hot and Spicy Kitchen", "Deli Buds Kitchen", "SOTA Kitchen", "Blossom"]
 _menu = [
     {
         "slug": "noodles",
@@ -51,6 +52,190 @@ _menu = [
     }
 ]
 
+
+vendors_menu = [
+    {
+        "slug": "pepsi",
+        "title": "Pepsi",
+        "image": "images/pepsi.jpg",
+        "price": 150,
+        "cf": 50,
+        "total": 200,
+        "description": "A refreshing, carbonated cola soft drink, perfect for quenching your thirst.",
+        "kitchen": random.choice(vendors),
+        "category": "drink"
+    },
+    {
+        "slug": "coke",
+        "title": "Coca-Cola",
+        "image": "images/coke.jpg",
+        "price": 150,
+        "cf": 50,
+        "total": 200,
+        "description": "The classic cola soft drink with a rich, bold flavor. Always refreshing.",
+        "kitchen": random.choice(vendors),
+        "category": "drink"
+    },
+    {
+        "slug": "fanta",
+        "title": "Fanta",
+        "image": "images/fanta.jpg",
+        "price": 150,
+        "cf": 50,
+        "total": 200,
+        "description": "A fruity, orange-flavored soft drink that's sweet and bubbly.",
+        "kitchen": random.choice(vendors),
+        "category": "drink"
+    },
+    {
+        "slug": "doughnut",
+        "title": "Doughnut",
+        "image": "images/doughnut.jpg",
+        "price": 400,
+        "cf": 100,
+        "total": 500,
+        "description": "A soft, sweet, and delicious doughnut, perfect for a quick snack.",
+        "kitchen": random.choice(vendors),
+        "category": "Snack"
+    },
+    {
+        "slug": "egg-roll",
+        "title": "Egg Roll",
+        "image": "images/egg_roll.jpg",
+        "price": 400,
+        "cf": 50,
+        "total": 450,
+        "description": "A deep-fried snack with a boiled egg encased in a crispy, golden dough.",
+        "kitchen": random.choice(vendors),
+        "category": "Snack"
+    },
+    {
+        "slug": "fish-roll",
+        "title": "Fish Roll",
+        "image": "images/fish_roll.jpg",
+        "price": 150,
+        "cf": 50,
+        "total": 200,
+        "description": "A tasty, deep-fried roll filled with seasoned fish, crispy on the outside and savory inside.",
+        "kitchen": random.choice(vendors),
+        "category": "Snack"
+    },
+    {
+        "slug": "akara",
+        "title": "Akara",
+        "image": "images/akara.jpg",
+        "price": 100,
+        "cf": 50,
+        "total": 150,
+        "description": "A popular Nigerian snack made from deep-fried bean cakes, crunchy and delicious.",
+        "kitchen": random.choice(vendors),
+        "category": "Snack"
+    },
+    {
+        "slug": "sharwarma",
+        "title": "Sharwarma",
+        "image": "images/sharwarma.webp",
+        "price": 2000,
+        "cf": 100,
+        "total": 2100,
+        "description": "A tasty wrap filled with grilled meat, veggies, and a mix of delicious sauces.",
+        "kitchen": random.choice(vendors),
+        "category": "Snack"
+    },
+    {
+        "slug": "small-chops",
+        "title": "Small Chops",
+        "image": "images/smallchops.jpg",
+        "price": 1700,
+        "cf": 100,
+        "total": 1800,
+        "description": "A delightful assortment of mini snacks including puff-puff, samosas, and spring rolls.",
+        "kitchen": random.choice(vendors),
+        "category": "Snack"
+    },
+    {
+        "slug": "ewedu",
+        "title": "Ewedu Soup",
+        "image": "images/ewedu.jpg",
+        "price": 200,
+        "cf": 50,
+        "total": 250,
+        "description": "A traditional Nigerian soup made from jute leaves, perfect with Amala or any swallow.",
+        "kitchen": random.choice(vendors),
+        "category": "Soup"
+    },
+    {
+        "slug": "egusi",
+        "title": "Egusi Soup",
+        "image": "images/egusi.jpg",
+        "price": 200,
+        "cf": 50,
+        "total": 250,
+        "description": "A hearty Nigerian soup made from ground melon seeds, rich in flavor and best enjoyed with any swallow.",
+        "kitchen": random.choice(vendors),
+        "category": "Soup"
+    },
+    {
+        "slug": "efo",
+        "title": "Efo Soup",
+        "image": "images/efo.jpg",
+        "price": 200,
+        "cf": 50,
+        "total": 250,
+        "description": "A vibrant vegetable soup made from spinach and other leafy greens, spiced to perfection.",
+        "kitchen": random.choice(vendors),
+        "category": "Soup"
+    },
+    {
+        "slug": "amala",
+        "title": "Amala",
+        "image": "images/amala.jpg",
+        "price": 200,
+        "cf": 50,
+        "total": 250,
+        "description": "A popular Nigerian swallow made from yam flour, pairs perfectly with Ewedu or any other soup.",
+        "kitchen": random.choice(vendors),
+        "category": "Swallow"
+    },
+    {
+        "slug": "semolina-semovita",
+        "title": "Semolina or Semovita",
+        "image": "images/semolina.jpg",
+        "price": 200,
+        "cf": 50,
+        "total": 250,
+        "description": "A smooth, light swallow made from semolina flour, great with any Nigerian soup.",
+        "kitchen": random.choice(vendors),
+        "category": "Swallow"
+    },
+    {
+        "slug": "fufu",
+        "title": "Fufu",
+        "image": "images/fufu.jpg",
+        "price": 100,
+        "cf": 50,
+        "total": 150,
+        "description": "A starchy, fermented swallow made from cassava, with a slightly sour taste. Enjoyed with various soups.",
+        "kitchen": random.choice(vendors),
+        "category": "Swallow"
+    },
+    {
+        "slug": "eba",
+        "title": "Eba",
+        "image": "images/eba.jpg",
+        "price": 200,
+        "cf": 50,
+        "total": 250,
+        "description": "A popular Nigerian swallow made from garri, often paired with Egusi or any other soup.",
+        "kitchen": random.choice(vendors),
+        "category": "Swallow"
+    }
+]
+categories = []
+for each in vendors_menu:
+    cat = each["category"]
+    if cat not in categories:
+        categories.append(each["category"])
 
 _menu2 = [
     {
@@ -376,7 +561,7 @@ _menu2 = [
     {
         "slug": "sharwarma",
         "title": "Sharwarma",
-        "image": "images/sharwarma.jpg",
+        "image": "images/sharwarma.webp",
         "price": 2000,
         "cf": 100,
         "total": 2100,

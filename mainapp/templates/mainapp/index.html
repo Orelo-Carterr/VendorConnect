@@ -179,7 +179,7 @@
             <section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('{% static "images/background/pic10.png" %}'); background-attachment: fixed;">
                 <div class="container">
                     <div class="section-head text-center">
-                        <h2 class="title wow flipInX" data-wow-delay="0.2s">Why Choose Us ?</h2>
+                        <h2 class="title wow flipInX" data-wow-delay="0.2s">Why use VendorConnect ?</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -190,7 +190,7 @@
                                     </div>
                                 </div>
                                 <div class="icon-content">
-                                    <p>24/7 Free Delivery</p>
+                                    <p>24/7 Availabilty</p>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                                     </div>
                                 </div>
                                 <div class="icon-content">
-                                    <p>Our Restaurant is Open Around the Clock</p>
+                                    <p>Our Application is Open Around the Clock</p>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +214,7 @@
                                     </div>
                                 </div>
                                 <div class="icon-content">
-                                    <p>Best Chef</p>
+                                    <p>Connect with the best chefs on campus through VendorConnect</p>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                     </div>
                                 </div>
                                 <div class="icon-content">
-                                    <p>We Have The Freshest Product</p>
+                                    <p>Get it exactly when you want it! </p>
                                 </div>
                             </div>
                         </div>
@@ -239,136 +239,45 @@
             <section class="content-inner section-wrapper-6 p-b40">
                 <div class="container inner-section-wrapper">
                     <div class="section-head text-center">
-                        <h2 class="title wow flipInX" data-wow-delay="0.2s">From Our Menu</h2>
+                        <h2 class="title wow flipInX" data-wow-delay="0.2s">From Our Vendors</h2>
                     </div>
                     <div class="row">
                         <div class="col-xl-10 col-lg-9 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="site-filters style-1 clearfix">
                                 <ul class="filters" data-bs-toggle="buttons">
                                     <li data-filter=".All" class="btn active"><a href="javascript:void(0);"><i class="flaticon-fast-food"></i>ALL</a></li>
-                                    <li data-filter=".drink" class="btn"><a href="javascript:void(0);"><i class="flaticon-cocktail"></i>COLD DRINK</a></li>
-                                    <li data-filter=".pizza" class="btn"><a href="javascript:void(0);"><i class="flaticon-pizza-slice"></i>PIZZA</a></li>
-                                    <li data-filter=".salad" class="btn active"><a href="javascript:void(0);"><i class="flaticon-salad"></i>SALAD</a></li>
-                                    <li data-filter=".sweet" class="btn active"><a href="javascript:void(0);"><i class="flaticon-cupcake"></i>SWEETS</a></li>
-                                    <li data-filter=".spicy" class="btn active"><a href="javascript:void(0);"><i class="flaticon-chili-pepper"></i>SPICY</a></li>
-                                    <li data-filter=".burger" class="btn active"><a href="javascript:void(0);"><i class="flaticon-hamburger-1"></i>BURGER</a></li>
+                                    {% for category in categories %}
+                                    <li data-filter=".{{category}}" class="btn"><a href="javascript:void(0);" style="text-transform:uppercase;">{{ category }}s</a></li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-12 text-lg-end d-lg-block d-none wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="our-menu-1.html" class="btn btn-outline-primary btn-hover-3"><span class="btn-text" data-text="View All">View All</span></a>
+                            <a href="{% url "vendor" "blossom-kitchen" %}" class="btn btn-outline-primary btn-hover-3"><span class="btn-text" data-text="View All">View All</span></a>
                         </div>
                     </div>
                     <div class="clearfix">
                         <ul id="masonry" class="row dlab-gallery-listing gallery">
-                            <li class="card-container col-lg-4 col-md-6 m-b30 All drink pizza burger wow fadeInUp" data-wow-delay="0.2s">
+                            {% for item in vendors_menu  %}
+                            <li class="card-container col-lg-4 col-md-6 m-b30 All {{item.category}} wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="dz-img-box style-7">
                                     <div class="dz-media">
-                                        <img src="{% static "images/eba_ewedu.webp" %}" alt="/">
+                                        <img src="{% static item.image %}" alt="/">
                                         <div class="dz-meta">
                                             <ul>
-                                                <li class="seller">Top Seller</li>
+                                                <li class="seller">Top Seller : {{item.kitchen}}</li>
                                                 <li class="rating"><i class="fa-solid fa-star"></i> 4.5</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="dz-content">
-                                        <h5 class="title"><a href="product-detail.html">Ewedu</a></h5>
-                                        <p>Tradition Yoruba Soup </p>
+                                        <h5 class="title"><a href="product-detail.html">{{item.title}}</a></h5>
+                                        <p>{{item.description}} </p>
                                         <span class="price">&#x20a6;4.56</span>
                                     </div>
                                 </div>
                             </li>
-                            <li class="card-container col-lg-4 col-md-6 m-b30 All pizza sweet wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="dz-img-box style-7">
-                                    <div class="dz-media">
-                                        <img src="{% static "images/egusi.jpg" %}" alt="/">
-                                        <div class="dz-meta">
-                                            <ul>
-                                                <li class="seller">Top Seller</li>
-                                                <li class="rating"><i class="fa-solid fa-star"></i> 4.5</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="dz-content">
-                                        <h5 class="title"><a href="product-detail.html">Egusi</a></h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
-                                        <span class="price">&#x20a6;17.56</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="card-container col-lg-4 col-md-6 m-b30 All salad spicy burger wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="dz-img-box style-7">
-                                    <div class="dz-media">
-                                        <img src="{% static "images/gallery/grid4/pic3.jpg" %}" alt="/">
-                                        <div class="dz-meta">
-                                            <ul>
-                                                <li class="seller">Top Seller</li>
-                                                <li class="rating"><i class="fa-solid fa-star"></i> 4.5</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="dz-content">
-                                        <h5 class="title"><a href="product-detail.html">Pineapple Pizza</a></h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
-                                        <span class="price">&#x20a6;24.50</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="card-container col-lg-4 col-md-6 m-b30 All drink wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="dz-img-box style-7">
-                                    <div class="dz-media">
-                                        <img src="{% static "images/pepsi.jpg" %}" alt="/">
-                                        <div class="dz-meta">
-                                            <ul>
-                                                <li class="seller">Top Seller</li>
-                                                <li class="rating"><i class="fa-solid fa-star"></i> 4.5</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="dz-content">
-                                        <h5 class="title"><a href="product-detail.html">Pepsi</a></h5>
-                                        <p>Pepsi is available for order</p>
-                                        <span class="price">&#x20a6;400</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="card-container col-lg-4 col-md-6 m-b30 All pizza spicy burger wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="dz-img-box style-7">
-                                    <div class="dz-media">
-                                        <img src="{% static "images/gallery/grid4/pic5.jpg" %}" alt="/">
-                                        <div class="dz-meta">
-                                            <ul>
-                                                <li class="seller">Top Seller</li>
-                                                <li class="rating"><i class="fa-solid fa-star"></i> 4.5</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="dz-content">
-                                        <h5 class="title"><a href="product-detail.html">Momos</a></h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
-                                        <span class="price">&#x20a6;4.56</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="card-container col-lg-4 col-md-6 m-b30 All drink wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="dz-img-box style-7">
-                                    <div class="dz-media">
-                                        <img src="{% static "images/coke.png" %}" alt="/">
-                                        <div class="dz-meta">
-                                            <ul>
-                                                <li class="seller">Top Seller</li>
-                                                <li class="rating"><i class="fa-solid fa-star"></i> 4.5</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="dz-content">
-                                        <h5 class="title"><a href="product-detail.html">Coke</a></h5>
-                                        <p>A refreshing carbonated drink.</p>
-                                        <span class="price">&#x20a6;12.20</span>
-                                    </div>
-                                </div>
-                            </li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>

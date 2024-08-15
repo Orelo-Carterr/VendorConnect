@@ -6,7 +6,7 @@ from django.urls import reverse
 from django.views.defaults import page_not_found
 
 from random import randrange
-from .menu import _menu,_menu2,kitchen_menu
+from .menu import _menu,_menu2,kitchen_menu, vendors_menu,categories
 # Create your views here.
 
 def error_404_view(request, exception):
@@ -17,8 +17,11 @@ def error_404_view(request, exception):
 
 def index(request):
     all_menu = _menu
+    vmenu = vendors_menu
     context = {
-        "menus" : _menu
+        "menus" : _menu,
+        "vendors_menu" : vmenu,
+        "categories" : categories
     }
     return render(request, 'mainapp/index.html',context)
 
