@@ -13,6 +13,7 @@ urlpatterns = [
     path('book/', views.book, name='book'),
     path('book-details/<slug:slug>', views.menu, name='book-details'),
     path('vendor/<slug:slug>', views.vendor, name='vendor'),
+    path('vendor/<slug:vslug>/<slug:islug>', views.menu_item, name='menu-item'),
     
    
 ]

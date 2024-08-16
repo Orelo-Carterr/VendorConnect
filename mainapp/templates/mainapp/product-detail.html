@@ -12,24 +12,10 @@
 {% block content %}
     {% include 'mainapp/includes/_loader.html' %}
     <div class="page-wraper">
-	
+		{% include 'mainapp/includes/_header.html' %}
 	<div class="page-content bg-white">
 		<!-- Banner  -->
-		<div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr1.jpg'); background-size:cover; background-position:center;">
-			<div class="container">
-				<div class="dz-bnr-inr-entry">
-					<h1>Product Detail</h1>
-					<!-- Breadcrumb Row -->
-					<nav aria-label="breadcrumb" class="breadcrumb-row">
-						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Product Detail</li>
-						</ul>
-					</nav>
-					<!-- Breadcrumb Row End -->
-				</div>
-			</div>
-		</div>
+		{% include "mainapp/includes/_crumb.html" %}
 		<!-- Banner End -->
 		
 		<!-- Product Detail Section -->
@@ -38,7 +24,7 @@
 				<div class="row product-detail">
 					<div class="col-lg-4 col-md-5">
 						<div class="detail-media m-b30">
-							<img src="assets/images/modal/pic1.jpg" alt="/">
+							<img src="{% static single_menu.image %}" alt="/">
 						</div>
 					</div>
 					<div class="col-lg-8 col-md-7">
@@ -48,17 +34,17 @@
 								<rect x="0.5" y="0.5" width="16" height="16" stroke="#0F8A65"/>
 								<circle cx="8.5" cy="8.5" r="5.5" fill="#0F8A65"/>
 								</svg>
-								Pure veg
+								{{ single_menu.category }}
 							</span>
 							<div class="dz-head">
-								<h2 class="title">Double Patty Veg Burger</h2>
+								<h2 class="title">{{ single_menu.title }}</h2>
 								<div class="rating">
 									<i class="fa-solid fa-star"></i> <span><strong class="text-dark">4.5</strong> - 20 Reviews</span>
 								</div>
 							</div>
-							<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p class="text">{{ single_menu.description }}</p>
 							<ul class="detail-list">
-								<li>Price <span class="text-primary m-t5">$20.00</span></li>
+								<li>Price <span class="text-primary m-t5">&#x20a6;20.00</span></li>
 								<li>Quantity
 									<div class="btn-quantity style-1 m-t5">
 										<input id="demo_vertical2" type="text" value="1" name="demo_vertical2">
@@ -69,10 +55,10 @@
 							<ul class="add-product">
 								<li><div class="mini-modal">
 										<div class="dz-media">
-											<img src="assets/images/modal/mini/pic1.jpg" alt="/">
+											<img src="{% static "images/modal/mini/pic1.jpg" %}" alt="/">
 										</div>
 										<div class="dz-content">
-											<p class="title">French Frise</p>
+											<p class="title">Extra Eggs</p>
 											<div class="form-check search-content">
 												<input class="form-check-input" type="checkbox" value="">
 											</div>
@@ -81,10 +67,10 @@
 								</li>
 								<li><div class="mini-modal">
 										<div class="dz-media">
-											<img src="assets/images/modal/mini/pic2.jpg" alt="/">
+											<img src="{% static "images/modal/mini/pic2.jpg" %}" alt="/">
 										</div>
 										<div class="dz-content">
-											<p class="title">Extra Cheese</p>
+											<p class="title">Fried eggs</p>
 											<div class="form-check search-content">
 												<input class="form-check-input" type="checkbox" value="">
 											</div>
@@ -93,10 +79,10 @@
 								</li>
 								<li><div class="mini-modal">
 										<div class="dz-media">
-											<img src="assets/images/modal/mini/pic3.jpg" alt="/">
+											<img src="{% static "images/modal/mini/pic3.jpg" %}" alt="/">
 										</div>
 										<div class="dz-content">
-											<p class="title">Coca Cola</p>
+											<p class="title">Pepsi</p>
 											<div class="form-check search-content">
 												<input class="form-check-input" type="checkbox" value="">
 											</div>
@@ -105,10 +91,10 @@
 								</li>
 								<li><div class="mini-modal">
 										<div class="dz-media">
-											<img src="assets/images/modal/mini/pic4.jpg" alt="/">
+											<img src="{% static "images/modal/mini/pic4.jpg" %}" alt="/">
 										</div>
 										<div class="dz-content">
-											<p class="title">Choco Lava</p>
+											<p class="title">Water</p>
 											<div class="form-check search-content">
 												<input class="form-check-input" type="checkbox" value="">
 											</div>
@@ -118,15 +104,14 @@
 							</ul>
 							<div class="d-lg-flex justify-content-between">
 								<ul class="modal-btn-group">
-									<li><a href="shop-cart.html" class="btn btn-primary btn-hover-1"><span>Add To Cart <i class="flaticon-shopping-bag-1 m-l10"></i></span></a></li>
-									<li><a href="shop-checkout.html" class="btn btn-outline-secondary btn-hover-1"><span>Buy Now <i class="flaticon-shopping-cart m-l10"></i></a></span></li>
+									<li><a href="shop-cart.html" class="btn btn-primary btn-hover-1"><span>Order Now <i class="flaticon-shopping-bag-1 m-l10"></i></span></a></li>
 								</ul>
 								<ul class="avatar-list avatar-list-stacked">
-									<li class="avatar"><img src="assets/images/testimonial/small/pic1.jpg" alt=""></li>
-									<li class="avatar"><img src="assets/images/testimonial/small/pic2.jpg" alt=""></li>
-									<li class="avatar"><img src="assets/images/testimonial/small/pic3.jpg" alt=""></li>
-									<li class="avatar"><img src="assets/images/testimonial/small/pic4.jpg" alt=""></li>
-									<li class="avatar"><img src="assets/images/testimonial/small/pic5.jpg" alt=""></li>
+									<li class="avatar"><img src="{% static "images/testimonial/small/pic1.jpg" %}" alt=""></li>
+									<li class="avatar"><img src="{% static "images/testimonial/small/pic2.jpg" %}" alt=""></li>
+									<li class="avatar"><img src="{% static "images/testimonial/small/pic3.jpg" %}" alt=""></li>
+									<li class="avatar"><img src="{% static "images/testimonial/small/pic4.jpg" %}" alt=""></li>
+									<li class="avatar"><img src="{% static "images/testimonial/small/pic5.jpg" %}" alt=""></li>
 									<li class="avatar"><span>150+</span></li>
 								</ul>
 							</div>
@@ -211,7 +196,7 @@
 										<li class="comment">
 											<div class="comment-body">
 												<div class="comment-author vcard"> 
-													<img  class="avatar photo" src="assets/images/testimonial/mini/pic1.jpg" alt="/"> 
+													<img  class="avatar photo" src="{% static "images/testimonial/mini/pic1.jpg" %}" alt="/"> 
 													<cite class="fn">Monsur Rahman Lito</cite>
 												</div>
 												<div class="star-rating" data-rating="2">
@@ -228,7 +213,7 @@
 										<li class="comment">
 											<div class="comment-body">
 												<div class="comment-author vcard"> 
-													<img  class="avatar photo" src="assets/images/testimonial/mini/pic2.jpg" alt="/"> 
+													<img  class="avatar photo" src="{% static "images/testimonial/mini/pic2.jpg" %}" alt="/"> 
 													<cite class="fn">Jake Johnson</cite>
 												</div>
 												<div class="star-rating" data-rating="3">
@@ -244,7 +229,7 @@
 										<li class="comment">
 											<div class="comment-body">
 												<div class="comment-author vcard"> 
-													<img  class="avatar photo" src="assets/images/testimonial/mini/pic3.jpg" alt="/"> 
+													<img  class="avatar photo" src="{% static "images/testimonial/mini/pic3.jpg" %}" alt="/"> 
 													<cite class="fn">John Doe</cite> 
 												</div>
 												<div class="star-rating" data-rating="4">
@@ -319,9 +304,9 @@
 					<div class="swiper portfolio-swiper">
 						<div class="swiper-wrapper p-b5">
 							<div class="swiper-slide">
-								<div class="dz-img-box style-2">
+								<div class="dz-img-box style-2">	
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic1.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic1.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Pizza</a></h4>
@@ -334,7 +319,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic2.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic2.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Rice</a></h4>
@@ -347,7 +332,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic3.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic3.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Green Salad</a></h4>
@@ -360,7 +345,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic4.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic4.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Pasta</a></h4>
@@ -373,7 +358,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic1.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic1.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Pizza</a></h4>
@@ -386,7 +371,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic2.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic2.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Rice</a></h4>
@@ -399,7 +384,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic3.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic3.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Green Salad</a></h4>
@@ -412,7 +397,7 @@
 							<div class="swiper-slide">
 								<div class="dz-img-box style-2">
 									<div class="dz-media">
-										<img src="assets/images/gallery/small/pic4.jpg" alt="/">
+										<img src="{% static "images/gallery/small/pic4.jpg" %}" alt="/">
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="product-detail.html">Pasta</a></h4>

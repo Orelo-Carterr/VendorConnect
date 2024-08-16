@@ -127,3 +127,15 @@ def menu(request, slug):
     }
     print(single_menu['image'])
     return render(request, 'mainapp/shop-checkout.html', context)
+
+def menu_item(request, vslug, islug):
+    all_menu = _menu2
+    single_menu = next(menu for menu in _menu2 if menu['slug'] == islug and menu['kitchen_slug'] == vslug)
+    context = {
+        "title": "Booking Details",
+        "crumb_to": "Home",
+        "link": "index",
+        "banner" : single_menu['image'],
+        "single_menu" : single_menu
+    }
+    return render(request, 'mainapp/product-detail.html', context)

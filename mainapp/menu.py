@@ -264,7 +264,9 @@ _menu2 = [
         "cf": 50,
         "total": 200,
         "kitchen": "Adonai Kitchen",
-        "description": "A classic West African dish made from long-grain rice cooked in a tomato-based sauce with spices."
+        "description": "A classic West African dish made from long-grain rice cooked in a tomato-based sauce with spices.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "fried-rice",
@@ -274,7 +276,9 @@ _menu2 = [
         "cf": 50,
         "total": 200,
         "kitchen": "Adonai Kitchen",
-        "description": "Rice stir-fried with vegetables, eggs, and spices, often served with chicken or beef."
+        "description": "Rice stir-fried with vegetables, eggs, and spices, often served with chicken or beef.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "jollof-spaghetti",
@@ -284,7 +288,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "Spaghetti cooked in a rich tomato sauce, similar to Jollof Rice but with a twist."
+        "description": "Spaghetti cooked in a rich tomato sauce, similar to Jollof Rice but with a twist.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "beans-and-corn",
@@ -294,7 +300,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A nutritious and filling dish made from a mix of beans and corn, often seasoned with palm oil and spices."
+        "description": "A nutritious and filling dish made from a mix of beans and corn, often seasoned with palm oil and spices.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "white-spaghetti",
@@ -304,7 +312,9 @@ _menu2 = [
         "cf": 50,
         "total": 200,
         "kitchen": "Adonai Kitchen",
-        "description": "Simple boiled spaghetti served with a light sauce or as a base for other toppings."
+        "description": "Simple boiled spaghetti served with a light sauce or as a base for other toppings.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "white-rice",
@@ -314,7 +324,9 @@ _menu2 = [
         "cf": 50,
         "total": 200,
         "kitchen": "Adonai Kitchen",
-        "description": "Steamed white rice, a staple side dish perfect for pairing with stews and sauces."
+        "description": "Steamed white rice, a staple side dish perfect for pairing with stews and sauces.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "beans",
@@ -324,7 +336,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "Hearty and flavorful beans cooked to perfection, often enjoyed with rice or bread."
+        "description": "Hearty and flavorful beans cooked to perfection, often enjoyed with rice or bread.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "yam-and-egg",
@@ -334,7 +348,9 @@ _menu2 = [
         "cf": 100,
         "total": 600,
         "kitchen": "Adonai Kitchen",
-        "description": "Boiled yam served with a tasty egg sauce, a popular breakfast or brunch option."
+        "description": "Boiled yam served with a tasty egg sauce, a popular breakfast or brunch option.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "potato-and-egg",
@@ -344,7 +360,9 @@ _menu2 = [
         "cf": 100,
         "total": 600,
         "kitchen": "Adonai Kitchen",
-        "description": "A satisfying dish featuring boiled or fried potatoes paired with an egg sauce."
+        "description": "A satisfying dish featuring boiled or fried potatoes paired with an egg sauce.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "amala",
@@ -354,7 +372,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A traditional Yoruba dish made from yam flour, served with various soups."
+        "description": "A traditional Yoruba dish made from yam flour, served with various soups.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "swallow"
     },
     {
         "slug": "semolina-semovita",
@@ -364,7 +384,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "Smooth and soft, Semolina or Semovita is a perfect accompaniment to rich, hearty soups."
+        "description": "Smooth and soft, Semolina or Semovita is a perfect accompaniment to rich, hearty soups.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "swallow"
     },
     {
         "slug": "fufu",
@@ -374,7 +396,9 @@ _menu2 = [
         "cf": 50,
         "total": 150,
         "kitchen": "Adonai Kitchen",
-        "description": "A starchy side dish made from cassava, often served with a variety of African soups."
+        "description": "A starchy side dish made from cassava, often served with a variety of African soups.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "swallow"
     },
     {
         "slug": "egg-sauce",
@@ -384,7 +408,9 @@ _menu2 = [
         "cf": 50,
         "total": 150,
         "kitchen": "Adonai Kitchen",
-        "description": "A savory sauce made with eggs, tomatoes, and onions, perfect for pairing with yams or potatoes."
+        "description": "A savory sauce made with eggs, tomatoes, and onions, perfect for pairing with yams or potatoes.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "fried-plantain",
@@ -394,7 +420,9 @@ _menu2 = [
         "cf": 25,
         "total": 75,
         "kitchen": "Adonai Kitchen",
-        "description": "Sweet, ripe plantains fried to a golden brown, a delicious side or snack."
+        "description": "Sweet, ripe plantains fried to a golden brown, a delicious side or snack.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "porridge-yam",
@@ -404,7 +432,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "Yam cooked in a rich sauce with palm oil, tomatoes, and spices, creating a thick porridge."
+        "description": "Yam cooked in a rich sauce with palm oil, tomatoes, and spices, creating a thick porridge.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "akara",
@@ -414,7 +444,9 @@ _menu2 = [
         "cf": 50,
         "total": 150,
         "kitchen": "Adonai Kitchen",
-        "description": "Deep-fried bean cakes made from ground black-eyed peas, a popular street food snack."
+        "description": "Deep-fried bean cakes made from ground black-eyed peas, a popular street food snack.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "snack"
     },
     {
         "slug": "doughnut",
@@ -424,7 +456,9 @@ _menu2 = [
         "cf": 100,
         "total": 500,
         "kitchen": "Adonai Kitchen",
-        "description": "Soft and fluffy doughnuts, sweetened and fried to perfection, a delightful treat."
+        "description": "Soft and fluffy doughnuts, sweetened and fried to perfection, a delightful treat.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "snack"
     },
     {
         "slug": "ice-cream",
@@ -434,7 +468,9 @@ _menu2 = [
         "cf": 100,
         "total": 1100,
         "kitchen": "Adonai Kitchen",
-        "description": "Creamy and cold, this ice cream is the perfect dessert to cool off on a hot day."
+        "description": "Creamy and cold, this ice cream is the perfect dessert to cool off on a hot day.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "meat",
@@ -444,7 +480,9 @@ _menu2 = [
         "cf": 50,
         "total": 150,
         "kitchen": "Adonai Kitchen",
-        "description": "Tender and flavorful meat, perfect as a side dish or main course."
+        "description": "Tender and flavorful meat, perfect as a side dish or main course.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "protein"
     },
     {
         "slug": "turkey",
@@ -454,7 +492,9 @@ _menu2 = [
         "cf": 100,
         "total": 1600,
         "kitchen": "Adonai Kitchen",
-        "description": "Juicy and well-seasoned turkey, roasted to perfection and served hot."
+        "description": "Juicy and well-seasoned turkey, roasted to perfection and served hot.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "protein"
     },
     {
         "slug": "chicken",
@@ -464,7 +504,9 @@ _menu2 = [
         "cf": 100,
         "total": 1600,
         "kitchen": "Adonai Kitchen",
-        "description": "Succulent chicken, seasoned and cooked to a golden brown, a crowd favorite."
+        "description": "Succulent chicken, seasoned and cooked to a golden brown, a crowd favorite.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "protein"
     },
     {
         "slug": "fish",
@@ -474,7 +516,9 @@ _menu2 = [
         "cf": 100,
         "total": 900,
         "kitchen": "Adonai Kitchen",
-        "description": "Fresh fish, grilled or fried, served with a side of vegetables or rice."
+        "description": "Fresh fish, grilled or fried, served with a side of vegetables or rice.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "protein"
     },
     {
         "slug": "ewedu",
@@ -484,7 +528,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A traditional Yoruba soup made from jute leaves, often served with Amala."
+        "description": "A traditional Yoruba soup made from jute leaves, often served with Amala.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "drink"
     },
     {
         "slug": "efo",
@@ -494,7 +540,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A nutritious and flavorful soup made from leafy greens, commonly served with pounded yam or fufu."
+        "description": "A nutritious and flavorful soup made from leafy greens, commonly served with pounded yam or fufu.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "soup"
     },
     {
         "slug": "ogbono",
@@ -504,7 +552,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A thick and hearty Nigerian soup made from ground ogbono seeds, known for its slimy texture."
+        "description": "A thick and hearty Nigerian soup made from ground ogbono seeds, known for its slimy texture.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "soup"
     },
     {
         "slug": "vegetable-soup",
@@ -514,7 +564,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A rich and savory soup made with various vegetables, often served with fufu or rice."
+        "description": "A rich and savory soup made with various vegetables, often served with fufu or rice.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "soup"
     },
     {
         "slug": "egusi",
@@ -524,7 +576,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A popular Nigerian soup made with ground melon seeds, often enjoyed with pounded yam."
+        "description": "A popular Nigerian soup made with ground melon seeds, often enjoyed with pounded yam.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "soup "
     },
     {
         "slug": "ogbono-and-egusi",
@@ -534,7 +588,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A combination of Ogbono and Egusi, creating a thick, flavorful soup."
+        "description": "A combination of Ogbono and Egusi, creating a thick, flavorful soup.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "soup"
     },
     {
         "slug": "rice-and-beans",
@@ -544,7 +600,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "Adonai Kitchen",
-        "description": "A hearty mix of rice and beans, often served with fried plantain or a side of meat."
+        "description": "A hearty mix of rice and beans, often served with fried plantain or a side of meat.",
+        "kitchen_slug": "adonai-kitchen",
+    "category": "special"
     },
     {
         "slug": "bread",
@@ -554,7 +612,9 @@ _menu2 = [
         "cf": 100,
         "total": 600,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A freshly baked loaf of soft, fluffy bread, perfect for sandwiches or as a side to any meal."
+        "description": "A freshly baked loaf of soft, fluffy bread, perfect for sandwiches or as a side to any meal.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "special"
     },
     {
         "slug": "noodles",
@@ -564,7 +624,9 @@ _menu2 = [
         "cf": 50,
         "total": 450,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A savory and spicy plate of stir-fried noodles, cooked to perfection with a blend of special seasonings."
+        "description": "A savory and spicy plate of stir-fried noodles, cooked to perfection with a blend of special seasonings.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "special"
     },
     {
         "slug": "egg",
@@ -574,7 +636,9 @@ _menu2 = [
         "cf": 50,
         "total": 350,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A perfectly boiled egg, a versatile side that complements any main dish."
+        "description": "A perfectly boiled egg, a versatile side that complements any main dish.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "snack"
     },
     {
         "slug": "sharwarma",
@@ -584,7 +648,9 @@ _menu2 = [
         "cf": 100,
         "total": 2100,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A mouthwatering wrap filled with tender, marinated meat, fresh vegetables, and a rich, flavorful sauce."
+        "description": "A mouthwatering wrap filled with tender, marinated meat, fresh vegetables, and a rich, flavorful sauce.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "snack"
     },
     {
         "slug": "chicken-and-chips",
@@ -594,7 +660,9 @@ _menu2 = [
         "cf": 100,
         "total": 4100,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A generous portion of crispy fried chicken served with golden fries, a perfect comfort meal."
+        "description": "A generous portion of crispy fried chicken served with golden fries, a perfect comfort meal.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "egg-roll",
@@ -604,7 +672,9 @@ _menu2 = [
         "cf": 50,
         "total": 450,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A soft, doughy roll filled with a savory boiled egg, ideal for a quick snack."
+        "description": "A soft, doughy roll filled with a savory boiled egg, ideal for a quick snack.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "snack"
     },
     {
         "slug": "fish-roll",
@@ -614,7 +684,9 @@ _menu2 = [
         "cf": 50,
         "total": 200,
         "kitchen": "Hot and Spicy Kitchen",
-        "description": "A delightful pastry filled with seasoned fish, offering a tasty and convenient snack option."
+        "description": "A delightful pastry filled with seasoned fish, offering a tasty and convenient snack option.",
+        "kitchen_slug": "hot-and-spicy-kitchen",
+    "category": "snack"
     },
     {
         "slug": "smoothie",
@@ -624,7 +696,9 @@ _menu2 = [
         "cf": 100,
         "total": 1100,
         "kitchen": "Deli Buds Kitchen",
-        "description": "A refreshing blend of fruits, providing a healthy and delicious drink to quench your thirst."
+        "description": "A refreshing blend of fruits, providing a healthy and delicious drink to quench your thirst.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "suya",
@@ -634,7 +708,9 @@ _menu2 = [
         "cf": 50,
         "total": 750,
         "kitchen": "Deli Buds Kitchen",
-        "description": "A spicy and succulent skewered meat, grilled to perfection and seasoned with traditional suya spices."
+        "description": "A spicy and succulent skewered meat, grilled to perfection and seasoned with traditional suya spices.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "gizzards",
@@ -644,7 +720,9 @@ _menu2 = [
         "cf": 50,
         "total": 750,
         "kitchen": "Deli Buds Kitchen",
-        "description": "Tender and flavorful gizzards, cooked with a blend of spices, perfect for a quick snack or as a side dish."
+        "description": "Tender and flavorful gizzards, cooked with a blend of spices, perfect for a quick snack or as a side dish.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "shaki-suya",
@@ -654,7 +732,9 @@ _menu2 = [
         "cf": 50,
         "total": 750,
         "kitchen": "Deli Buds Kitchen",
-        "description": "Spicy and tender shaki (tripe) grilled with a unique blend of suya spices, offering a traditional taste experience."
+        "description": "Spicy and tender shaki (tripe) grilled with a unique blend of suya spices, offering a traditional taste experience.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "goat-meat-suya",
@@ -664,7 +744,9 @@ _menu2 = [
         "cf": 50,
         "total": 750,
         "kitchen": "Deli Buds Kitchen",
-        "description": "Juicy goat meat grilled with suya spices, a must-try for lovers of spicy, flavorful meats."
+        "description": "Juicy goat meat grilled with suya spices, a must-try for lovers of spicy, flavorful meats.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "small-chops",
@@ -674,7 +756,9 @@ _menu2 = [
         "cf": 100,
         "total": 1800,
         "kitchen": "Deli Buds Kitchen",
-        "description": "A delightful mix of bite-sized snacks, perfect for sharing and enjoying with friends."
+        "description": "A delightful mix of bite-sized snacks, perfect for sharing and enjoying with friends.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "spaghetti-stir-fry",
@@ -684,7 +768,9 @@ _menu2 = [
         "cf": 100,
         "total": 3100,
         "kitchen": "Deli Buds Kitchen",
-        "description": "A flavorful stir-fried spaghetti dish, packed with vegetables and protein, offering a satisfying meal."
+        "description": "A flavorful stir-fried spaghetti dish, packed with vegetables and protein, offering a satisfying meal.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "special"
     },
     {
         "slug": "asun",
@@ -694,7 +780,9 @@ _menu2 = [
         "cf": 100,
         "total": 1100,
         "kitchen": "Deli Buds Kitchen",
-        "description": "Spicy roasted goat meat, a traditional Nigerian delicacy that packs a punch of flavor."
+        "description": "Spicy roasted goat meat, a traditional Nigerian delicacy that packs a punch of flavor.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "boli-and-turkey",
@@ -704,7 +792,9 @@ _menu2 = [
         "cf": 100,
         "total": 2800,
         "kitchen": "Deli Buds Kitchen",
-        "description": "Grilled plantains (boli) served with succulent, spicy turkey, offering a perfect blend of flavors."
+        "description": "Grilled plantains (boli) served with succulent, spicy turkey, offering a perfect blend of flavors.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "special"
     },
     {
         "slug": "catfish",
@@ -714,7 +804,9 @@ _menu2 = [
         "cf": 100,
         "total": 1600,
         "kitchen": "Deli Buds Kitchen",
-        "description": "A whole grilled catfish, seasoned to perfection and served with a side of spicy sauce."
+        "description": "A whole grilled catfish, seasoned to perfection and served with a side of spicy sauce.",
+        "kitchen_slug": "deli-buds-kitchen",
+    "category": "dessert"
     },
     {
         "slug": "rice",
@@ -724,7 +816,9 @@ _menu2 = [
         "cf": 50,
         "total": 200,
         "kitchen": "SOTA Kitchen",
-        "description": "A simple and delicious serving of steamed white rice, a versatile side dish for any meal."
+        "description": "A simple and delicious serving of steamed white rice, a versatile side dish for any meal.",
+        "kitchen_slug": "sota-kitchen",
+    "category": "special"
     },
     {
         "slug": "eba",
@@ -734,7 +828,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "SOTA Kitchen",
-        "description": "A traditional Nigerian staple made from garri, perfect for pairing with various soups."
+        "description": "A traditional Nigerian staple made from garri, perfect for pairing with various soups.",
+        "kitchen_slug": "sota-kitchen",
+    "category": "swallow"
     },
     {
         "slug": "moi-moi",
@@ -744,7 +840,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "SOTA Kitchen",
-        "description": "A steamed bean pudding made from ground peeled beans, onions, and spices, a nutritious and tasty side dish."
+        "description": "A steamed bean pudding made from ground peeled beans, onions, and spices, a nutritious and tasty side dish.",
+        "kitchen_slug": "sota-kitchen",
+    "category": "special"
     },
     {
         "slug": "okro",
@@ -754,7 +852,9 @@ _menu2 = [
         "cf": 50,
         "total": 250,
         "kitchen": "SOTA Kitchen",
-        "description": "A rich and slimy okro soup, cooked with various seasonings, perfect for pairing with traditional Nigerian swallows."
+        "description": "A rich and slimy okro soup, cooked with various seasonings, perfect for pairing with traditional Nigerian swallows.",
+        "kitchen_slug": "sota-kitchen",
+    "category": "soup"
     },
     {
     "slug": "jollof-rice",
@@ -764,7 +864,9 @@ _menu2 = [
     "cf": 50,
     "total": 200,
     "kitchen": "Blossom Kitchen",
-    "description": "A flavorful rice dish cooked with tomato and spices."
+    "description": "A flavorful rice dish cooked with tomato and spices.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "fried-rice",
@@ -774,7 +876,9 @@ _menu2 = [
     "cf": 50,
     "total": 200,
     "kitchen": "Blossom Kitchen",
-    "description": "Stir-fried rice mixed with vegetables and seasonings."
+    "description": "Stir-fried rice mixed with vegetables and seasonings.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "jollof-spaghetti",
@@ -784,7 +888,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "Spaghetti cooked in a rich tomato-based sauce."
+    "description": "Spaghetti cooked in a rich tomato-based sauce.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "beans-and-corn",
@@ -794,7 +900,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "A hearty mix of beans and corn seasoned to perfection."
+    "description": "A hearty mix of beans and corn seasoned to perfection.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "white-spaghetti",
@@ -804,7 +912,9 @@ _menu2 = [
     "cf": 50,
     "total": 200,
     "kitchen": "Blossom Kitchen",
-    "description": "Plain boiled spaghetti, ready to be enjoyed with any sauce."
+    "description": "Plain boiled spaghetti, ready to be enjoyed with any sauce.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "white-rice",
@@ -814,7 +924,9 @@ _menu2 = [
     "cf": 50,
     "total": 200,
     "kitchen": "Blossom Kitchen",
-    "description": "Steamed white rice, a versatile side dish."
+    "description": "Steamed white rice, a versatile side dish.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "beans",
@@ -824,7 +936,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "Soft-cooked beans, rich in flavor and nutrients."
+    "description": "Soft-cooked beans, rich in flavor and nutrients.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "yam-and-egg",
@@ -834,7 +948,9 @@ _menu2 = [
     "cf": 100,
     "total": 600,
     "kitchen": "Blossom Kitchen",
-    "description": "Boiled yam served with a tasty egg sauce."
+    "description": "Boiled yam served with a tasty egg sauce.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "potato-and-egg",
@@ -844,7 +960,9 @@ _menu2 = [
     "cf": 100,
     "total": 600,
     "kitchen": "Blossom Kitchen",
-    "description": "Boiled potatoes paired with a savory egg sauce."
+    "description": "Boiled potatoes paired with a savory egg sauce.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "amala",
@@ -854,7 +972,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "Traditional Nigerian swallow made from yam flour."
+    "description": "Traditional Nigerian swallow made from yam flour.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "swallow"
 },
 {
     "slug": "semolina-semovita",
@@ -864,7 +984,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "Smooth, dough-like meal perfect for pairing with soups."
+    "description": "Smooth, dough-like meal perfect for pairing with soups.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "swallow"
 },
 {
     "slug": "fufu",
@@ -874,7 +996,9 @@ _menu2 = [
     "cf": 50,
     "total": 150,
     "kitchen": "Blossom Kitchen",
-    "description": "Soft and stretchy swallow, often enjoyed with soups."
+    "description": "Soft and stretchy swallow, often enjoyed with soups.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "swallow"
 },
 {
     "slug": "egg-sauce",
@@ -884,7 +1008,9 @@ _menu2 = [
     "cf": 50,
     "total": 150,
     "kitchen": "Blossom Kitchen",
-    "description": "A flavorful sauce made with scrambled eggs and tomatoes."
+    "description": "A flavorful sauce made with scrambled eggs and tomatoes.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "sauce"
 },
 {
     "slug": "fried-plantain",
@@ -894,7 +1020,9 @@ _menu2 = [
     "cf": 25,
     "total": 75,
     "kitchen": "Blossom Kitchen",
-    "description": "Crispy, golden slices of ripe plantain."
+    "description": "Crispy, golden slices of ripe plantain.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "side"
 },
 {
     "slug": "porridge-yam",
@@ -904,7 +1032,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "Yam cubes cooked in a rich and spicy tomato sauce."
+    "description": "Yam cubes cooked in a rich and spicy tomato sauce.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "special"
 },
 {
     "slug": "akara",
@@ -914,7 +1044,9 @@ _menu2 = [
     "cf": 50,
     "total": 150,
     "kitchen": "Blossom Kitchen",
-    "description": "Fried bean cakes, crispy on the outside, soft inside."
+    "description": "Fried bean cakes, crispy on the outside, soft inside.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "snack"
 },
 {
     "slug": "doughnut",
@@ -924,7 +1056,9 @@ _menu2 = [
     "cf": 100,
     "total": 500,
     "kitchen": "Blossom Kitchen",
-    "description": "Sweet, fluffy pastry with a soft, airy texture."
+    "description": "Sweet, fluffy pastry with a soft, airy texture.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "snack"
 },
 {
     "slug": "ice-cream",
@@ -934,7 +1068,9 @@ _menu2 = [
     "cf": 100,
     "total": 1100,
     "kitchen": "Blossom Kitchen",
-    "description": "Cold, creamy dessert available in various flavors."
+    "description": "Cold, creamy dessert available in various flavors.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "dessert"
 },
 {
     "slug": "meat",
@@ -944,7 +1080,9 @@ _menu2 = [
     "cf": 50,
     "total": 150,
     "kitchen": "Blossom Kitchen",
-    "description": "Tender and juicy meat, seasoned to perfection."
+    "description": "Tender and juicy meat, seasoned to perfection.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "protein"
 },
 {
     "slug": "turkey",
@@ -954,7 +1092,9 @@ _menu2 = [
     "cf": 100,
     "total": 1600,
     "kitchen": "Blossom Kitchen",
-    "description": "Succulent turkey pieces, full of flavor."
+    "description": "Succulent turkey pieces, full of flavor.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "protein"
 },
 {
     "slug": "chicken",
@@ -964,7 +1104,9 @@ _menu2 = [
     "cf": 100,
     "total": 1600,
     "kitchen": "Blossom Kitchen",
-    "description": "Grilled or fried chicken, crispy on the outside."
+    "description": "Grilled or fried chicken, crispy on the outside.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "protein"
 },
 {
     "slug": "fish",
@@ -974,7 +1116,9 @@ _menu2 = [
     "cf": 100,
     "total": 900,
     "kitchen": "Blossom Kitchen",
-    "description": "Grilled or fried fish, seasoned to perfection."
+    "description": "Grilled or fried fish, seasoned to perfection.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "protein"
 },
 {
     "slug": "ewedu",
@@ -984,7 +1128,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "A slimy green soup made from jute leaves."
+    "description": "A slimy green soup made from jute leaves.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "soup"
 },
 {
     "slug": "egusi",
@@ -994,7 +1140,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "A thick, nutty soup made from ground melon seeds."
+    "description": "A thick, nutty soup made from ground melon seeds.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "soup"
 },
 {
     "slug": "efo",
@@ -1004,7 +1152,9 @@ _menu2 = [
     "cf": 50,
     "total": 250,
     "kitchen": "Blossom Kitchen",
-    "description": "A rich, leafy vegetable soup, seasoned with spices."
+    "description": "A rich, leafy vegetable soup, seasoned with spices.",
+    "kitchen_slug": "blossom-kitchen",
+    "category": "soup"
 }
 ]
 
@@ -1026,7 +1176,9 @@ def organize_by_kitchen(menu):
             "price": item["price"],
             "cf": item["cf"],
             "total": item["total"],
-            "description": item["description"]
+            "description": item["description"],
+            "kitchen_slug": item["kitchen_slug"],
+            "category": item["category"]
         })
     
     return kitchen_dict
