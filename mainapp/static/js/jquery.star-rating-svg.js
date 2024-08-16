@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	var ratingInput = $('#rating-input');
   
   /* 1. Visualizing things on Hover - See next part for action on click */
   $('#stars li').on('mouseover', function(){
@@ -32,18 +33,23 @@ $(document).ready(function(){
 	
 	for (i = 0; i < onStar; i++) {
 	  $(stars[i]).addClass('selected');
+	  
 	}
+	
 	
 	// JUST RESPONSE (Not needed)
 	var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
 	var msg = "";
 	if (ratingValue > 1) {
 		msg = "Thanks! You rated this " + ratingValue + " stars.";
+		ratingInput.attr("value",ratingValue + " stars");
 	}
 	else {
 		msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
+		ratingInput.attr("value",ratingValue + " stars");
 	}
 	responseMessage(msg);
+	console.log(ratingInput);
 	
   });
   
