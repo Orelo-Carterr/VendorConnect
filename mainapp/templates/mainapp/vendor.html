@@ -52,7 +52,7 @@
 									<div class="dz-shop-card style-2 m-b30 p-0 shadow-none">
 										<div class="dz-content">
 											<div class="dz-head">
-												<span class="header-text"><a href="{% url "vendor" menu.slug %}">{{ menu.title }}</a></span>
+												<span class="header-text"><a href="{% url "menu-item" vslug=menu.kitchen_slug islug=menu.slug %}">{{ menu.title }}</a></span>
 												<span class="img-line"></span>
 												<span class="header-price">{{ menu.price}}</span>
 											</div>
@@ -75,7 +75,7 @@
 									<div class="dz-shop-card style-2 m-b30 p-0 shadow-none">
 										<div class="dz-content">
 											<div class="dz-head">
-												<span class="header-text"><a href="{% url "vendor" menu.slug %}">{{ menu.title }}</a></span>
+												<span class="header-text"><a href="{% url "menu-item" vslug=menu.kitchen_slug islug=menu.slug %}">{{ menu.title }}</a></span>
 												<span class="img-line"></span>
 												<span class="header-price">{{ menu.price}}</span>
 											</div>
@@ -98,7 +98,7 @@
 									<div class="dz-shop-card style-2 m-b30 p-0 shadow-none">
 										<div class="dz-content">
 											<div class="dz-head">
-												<span class="header-text"><a href="{% url "vendor" menu.slug %}">{{ menu.title }}</a></span>
+												<span class="header-text"><a href="{% url "menu-item" vslug=menu.kitchen_slug islug=menu.slug %}">{{ menu.title }}</a></span>
 												<span class="img-line"></span>
 												<span class="header-price">{{ menu.price}}</span>
 											</div>
