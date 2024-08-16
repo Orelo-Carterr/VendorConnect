@@ -21,7 +21,7 @@ _menu = [
     {
         "slug": "chicken",
         "title": "Chicken",
-        "image" : "images/friedchicken.jpg",
+        "image" : "images/Friedchicken.jpg",
         "price" : 1500,
         "cf" : 200,
         "total" : 1700
@@ -499,7 +499,7 @@ _menu2 = [
     {
         "slug": "chicken",
         "title": "Chicken",
-        "image": "images/friedchicken.jpg",
+        "image": "images/Friedchicken.jpg",
         "price": 1500,
         "cf": 100,
         "total": 1600,
@@ -763,7 +763,7 @@ _menu2 = [
     {
         "slug": "spaghetti-stir-fry",
         "title": "Spaghetti Stir Fry",
-        "image": "images/spaghetti_stir_fry.jpg",
+        "image": "images/jollofspag.jpg",
         "price": 3000,
         "cf": 100,
         "total": 3100,
@@ -1099,7 +1099,7 @@ _menu2 = [
 {
     "slug": "chicken",
     "title": "Chicken",
-    "image": "images/chicken.jpg",
+    "image": "images/Friedchicken.jpg",
     "price": 1500,
     "cf": 100,
     "total": 1600,

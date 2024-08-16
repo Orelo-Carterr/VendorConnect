@@ -322,8 +322,8 @@
 									</div>
 									<div class="dz-content">
 										<h4 class="dz-title"><a href="{% url "menu-item" special.kitchen_slug special.slug %}">{{special.title}}</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="dz-price text-primary">$55.00</h5>
+										<p>{{special.description}}.</p>
+										<h5 class="dz-price text-primary">&#x20a6;{{special.price}}</h5>
 										<a href="{% url "menu-item" special.kitchen_slug special.slug %}" class="btn btn-primary btn-hover-2"> Order Now</a>
 									</div>
 								</div>
