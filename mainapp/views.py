@@ -6,7 +6,7 @@ from django.urls import reverse
 from django.views.defaults import page_not_found
 
 from random import randrange
-from .menu import _menu,_menu2,kitchen_menu, vendors_menu,categories
+from .menu import _menu,_menu2,kitchen_menu, vendors_menu,categories, special_menu
 # Create your views here.
 
 def error_404_view(request, exception):
@@ -129,13 +129,17 @@ def menu(request, slug):
     return render(request, 'mainapp/shop-checkout.html', context)
 
 def menu_item(request, vslug, islug):
-    all_menu = _menu2
+    specials = special_menu[vslug]
+    # specials = special_menu
     single_menu = next(menu for menu in _menu2 if menu['slug'] == islug and menu['kitchen_slug'] == vslug)
+    print(specials)
+    
     context = {
         "title": "Booking Details",
         "crumb_to": "Home",
         "link": "index",
         "banner" : single_menu['image'],
-        "single_menu" : single_menu
+        "single_menu" : single_menu,
+        "special_menu" : specials
     }
     return render(request, 'mainapp/product-detail.html', context)

@@ -1185,60 +1185,28 @@ def organize_by_kitchen(menu):
 
 kitchen_menu = organize_by_kitchen(_menu2)
 
-# tabs = {
-#   "Access-control" : "Access-control Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis aperiam est praesentium, quos iste consequuntur omnis",
-#   "Goals" : "Goals Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis aperiam est praesentium, quos iste consequuntur omnis",
-  
-# }
+def generate_specials(menu):
+    special_kitchen = {}
+    for item in menu:
+        kitchen_name = item["kitchen"].lower()
+        kitchen_name = kitchen_name.split(" ")
+        kitchen_name = "-".join(kitchen_name)
+        
+        if kitchen_name not in special_kitchen:
+            special_kitchen[kitchen_name] = []
+            
+        if "special" in item["category"]:
+            special_kitchen[kitchen_name].append({
+            "slug": item["slug"],
+            "title": item["title"],
+            "image": item["image"],
+            "price": item["price"],
+            "cf": item["cf"],
+            "total": item["total"],
+            "description": item["description"],
+            "kitchen_slug": item["kitchen_slug"],
+            "category": item["category"]
+        })
+    return special_kitchen
 
-#  sp_services = [
-#   {
-#         "slug": "secured-managed-it",
-#         "excerpt": "Secured ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur",
-#         "title": "Secured Managed IT",
-#         "image" : rimages/andom.choice(["consultation", "consultation2"]) + ".jpg",
-#         "content": """Nowon offers the best service in secured IT management. The field of IT management is a vital component in the success of an organization as information technology serves as the backbone of virtually every aspect of business operations. IT management involves the administration, direction, and control of various technological resources to meet the objectives of an organization through effective management of IT personnel and resources. It encompasses the strategic decision making, deployment and maintenance of a range of information technology assets including hardware, software, databases, and networks, as well as the optimization of technology use to enhance an organization's productivity and performance.
-#           Here are some key aspects of our secured IT management:
-#           Conducting regular risk assessments to identify potential vulnerabilities and threats within the IT infrastructure. This involves evaluating security risks, determining their potential impact, and implementing appropriate risk mitigation strategies.
-#           Security Policies and Procedures: Developing and enforcing comprehensive security policies and procedures that outline acceptable use of IT resources, password management, data handling practices, incident response protocols, and other security-related guidelines. These policies should be communicated to all employees and regularly updated to address emerging threats.""",
-#         "options" : [
-#           {
-#             "slug": "access-control-services",
-#             "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur",
-#             "title": "Access Control Services",
-#             "image" : rimages/andom.choice(["access_control","access_control2"]) + ".jpg",
-#             "content": """
-#               Implementing strong access control mechanisms to ensure that only authorized individuals have access to sensitive systems and data. This involves using techniques like user authentication, role-based access control (RBAC), and multi-factor authentication (MFA) to verify user identities and restrict access privileges.
-#             """
-#         },
-#         {
-#         "slug": "order",
-#         "excerpt": "Tega ipsum dolor sit amet, consectetur adipiscing elit,quos ivelit labore vero culpa sed do eiusmod tempor sit amet, dolor consectetur",
-#         "title": "Make an Order",
-#         "image" : rimages/andom.choice(["consultation", "consultation2"]) + ".jpg",
-#         "content": """
-#           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis
-#           aperiam est praesentium, quos iste consequuntur omnis exercitationem quam
-#           velit labore vero culpa ad mollitia? Quis architecto ipsam nemo. Odio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis
-#           aperiam est praesentium, quos iste consequuntur omnis exercitationem quam
-#           velit labore vero culpa ad mollitia? Quis architecto ipsam nemo. Odio.
-#         """
-#     },
-#         {
-#         "slug": "request",
-#         "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur",
-#         "title": "Request Delivery",
-#         "image" : rimages/andom.choice(["access_control","access_control2"]) + ".jpg",
-#         "content": """
-#           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis
-#           aperiam est praesentium, quos iste consequuntur omnis exercitationem quam
-#           velit labore vero culpa ad mollitia? Quis architecto ipsam nemo. Odio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis
-#           aperiam est praesentium, quos iste consequuntur omnis exercitationem quam
-#           velit labore vero culpa ad mollitia? Quis architecto ipsam nemo. Odio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis
-#           aperiam est praesentium, quos iste consequuntur omnis exercitationem quam
-#           velit labore vero culpa ad mollitia? Quis architecto ipsam nemo. Odio.
-#         """
-#         }
-#         ]
-#     }
-#   ]
+special_menu = generate_specials(_menu2)
