@@ -595,7 +595,7 @@ _menu2 = [
     {
         "slug": "rice-and-beans",
         "title": "Rice and Beans",
-        "image": "images/rice_beans.jpg",
+        "image": "images/rice_beans.png",
         "price": 200,
         "cf": 50,
         "total": 250,
@@ -859,7 +859,7 @@ _menu2 = [
     {
     "slug": "jollof-rice",
     "title": "Jollof Rice",
-    "image": "images/jollof_rice.jpg",
+    "image": "images/jollof.jpg",
     "price": 150,
     "cf": 50,
     "total": 200,
@@ -871,7 +871,7 @@ _menu2 = [
 {
     "slug": "fried-rice",
     "title": "Fried Rice",
-    "image": "images/fried_rice.jpg",
+    "image": "images/friedrice.jpg",
     "price": 150,
     "cf": 50,
     "total": 200,
@@ -883,7 +883,7 @@ _menu2 = [
 {
     "slug": "jollof-spaghetti",
     "title": "Jollof Spaghetti",
-    "image": "images/jollof_spaghetti.jpg",
+    "image": "images/jollofspag.jpg",
     "price": 200,
     "cf": 50,
     "total": 250,
@@ -895,7 +895,7 @@ _menu2 = [
 {
     "slug": "beans-and-corn",
     "title": "Beans and Corn",
-    "image": "images/beans_and_corn.jpg",
+    "image": "images/oloka.jpg",
     "price": 200,
     "cf": 50,
     "total": 250,
@@ -907,7 +907,7 @@ _menu2 = [
 {
     "slug": "white-spaghetti",
     "title": "White Spaghetti",
-    "image": "images/white_spaghetti.jpg",
+    "image": "images/white_spag.jpg",
     "price": 150,
     "cf": 50,
     "total": 200,
@@ -919,7 +919,7 @@ _menu2 = [
 {
     "slug": "white-rice",
     "title": "White Rice",
-    "image": "images/white_rice.jpg",
+    "image": "images/white_rice.jpeg",
     "price": 150,
     "cf": 50,
     "total": 200,
@@ -931,7 +931,7 @@ _menu2 = [
 {
     "slug": "beans",
     "title": "Beans",
-    "image": "images/beans.jpg",
+    "image": "images/beans.png",
     "price": 200,
     "cf": 50,
     "total": 250,
@@ -943,7 +943,7 @@ _menu2 = [
 {
     "slug": "yam-and-egg",
     "title": "Yam and Egg",
-    "image": "images/yam_and_egg.jpg",
+    "image": "images/yam_eggs.webp",
     "price": 500,
     "cf": 100,
     "total": 600,
@@ -955,7 +955,7 @@ _menu2 = [
 {
     "slug": "potato-and-egg",
     "title": "Potato and Egg",
-    "image": "images/potato_and_egg.jpg",
+    "image": "images/potato_eggs.jpg",
     "price": 500,
     "cf": 100,
     "total": 600,
@@ -1027,7 +1027,7 @@ _menu2 = [
 {
     "slug": "porridge-yam",
     "title": "Porridge Yam",
-    "image": "images/porridge_yam.jpg",
+    "image": "images/yam_porridge.jpg",
     "price": 200,
     "cf": 50,
     "total": 250,
